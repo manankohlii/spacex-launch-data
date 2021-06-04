@@ -1,4 +1,4 @@
-# spacex-launch-data
-uses the freely available SpacexAPI and basic HTML CSS and JS to give details of missions 
+# SpaceX Launch Data
+Uses the freely available SpaceX API and basic HTML CSS and JS to give details of missions.
 
-[SpaceX Data](spacexlaunchdata.herokuapp.com)
+[SpaceX Data](http://spacexlaunchdata.herokuapp.com)
