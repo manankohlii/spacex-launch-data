@@ -5,14 +5,11 @@ Space related tecnology. <br><br>
 [SpaceX Data](http://spacexlaunchdata.herokuapp.com)
 
 
-
-[Discord Channel](https://discord.gg/pGXYrmXd9Q) ❤️
-
 [Github Pages](https://github.com/manankohlii/spacex-launch-data/commits?author=manankohlii) ❤️
 
 ## Owner
 
-* [Manan Kohli👨‍💻](https://github.com/Ayush761)✨
+* [Manan Kohli👨‍💻](https://github.com/manankohlii)✨
 
 # Overview
 
