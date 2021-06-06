@@ -9,7 +9,7 @@ Space related tecnology. <br><br>
 
 ## Owner
 
-* [Manan Kohli👨‍💻](https://github.com/manankohlii)✨
+ [Manan Kohli👨‍💻](https://github.com/manankohlii)✨
 
 # Overview
 
@@ -80,13 +80,6 @@ git push -u origin <your_branch_name>
 
 **13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
-
 **14.** Click on `Create Pull Request`.
-
-
-**15** Voila! You have made a PR to the awesome-developer-portfolio project. Sit back patiently and relax while the your PR is reviewed. 
-
- In case of any help, please free to contact me via mail @ ritik151112@gmail.com
-
 
 <h1 align=center>Happy Coding 👨‍💻 </h1> -->
