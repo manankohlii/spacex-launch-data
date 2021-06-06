@@ -83,10 +83,4 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-
-**15** Voila! You have made a PR to the awesome-developer-portfolio project. Sit back patiently and relax while the your PR is reviewed. 
-
- In case of any help, please free to contact me via mail @ ritik151112@gmail.com
-
-
 <h1 align=center>Happy Coding 👨‍💻 </h1> -->
