@@ -12,7 +12,6 @@ body {
 }
 
 .app-wrap{
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -20,7 +19,6 @@ body {
 }
 
 header{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,16 +27,15 @@ header{
 
 header input{
     width: 100%;
-    max-width: 300px;
-    padding: 10px 15px;
+    max-width: 350px;
+    padding: 13px 15px;
     border: none;
     outline: none;
     background-color: rgba(255,255,255,0.9);
-    border-radius: 16px;
-    
+    border-radius: 12px;
     color: #313131;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 400;
     transition: 0.2s ease-out;
 }
 
@@ -47,7 +44,6 @@ header input:focus {
 }
 
 main{
-    
     flex: 1 1 100%;
     padding: 25px 25px 50px;
     display: flex;
@@ -97,32 +93,34 @@ main{
     text-shadow: 0px 3px rgba(0,0,0,0.6)
 }
 .btn{
-    border: 1px solid #FFCA33;
+    border: 2px solid #FFCA33;
     background:none;
     padding:10px 20px;
     font-size: 20px;
     margin:10px;
+    margin-left: 40px;
     color:#FFCA33;
     transition:0.8s;
     position: relative;
+    border-radius: 6px;
     overflow:hidden;
-}
-.btn:hover{
-    border: 1px solid #FF8633;
-    color:#FF8633;
+    cursor: pointer;
 }
 .btn::before{
-    content: "";
-    position:absolute;
-    left:0;
-    width:100%;
-    height: 0%;
-    background: #FF8633;
-    z-index:-1;
-    transition: 0.8s;
-    top:0;
-    border-radius: 0 0 50% 50%;
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 0%;
+    height: 100%;
+    background: #ffbb00;
+    transition: .3s linear;
+    z-index: -1;
 }
-.btn:hover::before{
-    height:180%;
+.btn:hover:before{
+    width: 100%;
+    left: 0;
 }
+.btn:hover{
+    color: #fff;
+}
+

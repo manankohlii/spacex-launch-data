@@ -16,9 +16,17 @@ fetch(url+fnum).then(function(response){
     document.getElementById("mname").textContent=obj.mission_name;
     document.getElementById("rname").textContent=obj.rocket.rocket_name;
     document.getElementById("lsite").textContent=obj.launch_site.site_name_long;
-
 }).catch(function(error){
     console.error('wrong');
     console.error(error);
 });
 }
+
+// On Hit Enter
+var input = document.getElementById("fnumber");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("sbtn").click();
+  }
+});
