@@ -68,6 +68,9 @@ main{
     color: #FFFF;
     font-size: 20px;
     font-weight: 900;
+    margin-bottom:4px ;
+    margin-top: 4px;
+
     text-shadow: 0px 3px rgba(0,0,0,0.6)
 }
 
@@ -75,10 +78,19 @@ main{
     color: #FFF;
     font-size: 102px;
     font-weight: 900;
-    margin: 30px 0px;
     text-shadow: 2px 10px rgba(0,0,0,0.6)
 }
 
+.Label{
+    color:#f8f55a;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* border-left: 3px solid brown; */
+    /* border-top: 4px solid brown; */
+    border-radius: 5px;}
+    
 .vehicle .rname{
     color: #fff;
     font-size:32px;
