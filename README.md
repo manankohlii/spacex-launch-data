@@ -2,7 +2,7 @@
 Uses the freely available SpaceX API and basic HTML CSS and JS to give details of missions.The main aim of the repo is help many other students who are interested in 
 Space related tecnology. <br><br>
 
-[SpaceX Data](launchspacex.netlify.app)
+[SpaceX Data](https://launchspacex.netlify.app)
 
 
 [Github Pages](https://github.com/manankohlii/spacex-launch-data/commits?author=manankohlii) ❤️
