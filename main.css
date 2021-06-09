@@ -52,46 +52,87 @@ main{
     text-align: center;
 }
 
-.lnumber .number{
-    color: #FFF;
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 20px;
+.mission_wrapper{
+    min-width:50vw;
+    min-height:60vh;
+    border:3px solid #FFCA33;
+    border-radius:20px;
+}
+
+.detail_row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail_block{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #FFCA33;
+   border-radius:10px;
+   background:none;
+   padding:10px 20px;
+   font-size: 20px;
+   margin:10px;
+   color:#FFCA33;
+}
+
+
+.label{
+  color:#FFF;
+  margin-right:5px;
+}
+
+
+
+.mission .name{
+    color: #FFCA33;
+    font-size:calc(25px + 2vw);
     font-weight: 900;
+    margin: 30px 10px;
+    text-shadow: 2px 2px 10px #FF8633;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+    text-shadow: 0 0 10px #FF8633, 0 0 20px #FF8633, 0 0 30px #FF8633;
+ }
+ 
+ to {
+    text-shadow:  0 0 10px #FF8633,0 0 20px #FF8633, 0 1 30px #FF8633;
+ }
+}
+
+.lnumber .number{
+    font-weight: 900;
+    text-shadow: 0px 3px rgba(0,0,0,0.6)
 }
 
 .lnumber .year{
-    color: #FFFF;
-    font-size: 20px;
     font-weight: 900;
     text-shadow: 0px 3px rgba(0,0,0,0.6)
-}
-
-.mission .name{
-    color: #FFF;
-    font-size: 102px;
-    font-weight: 900;
-    margin: 30px 0px;
-    text-shadow: 2px 10px rgba(0,0,0,0.6)
 }
 
 .vehicle .rname{
-    color: #fff;
-    font-size:32px;
-    font-weight: 700;
-    font-style:italic;
-    margin-bottom: 15px;
+    font-weight: 900;
     text-shadow: 0px 3px rgba(0,0,0,0.6)
 }
 
-.vehicle .rtype{
-    color: #fff;
-    font-size:20px;
-    font-weight: 700;
+.launch_site .rtype{
+    font-weight: 900;
+    font-size:15px;
     font-style:italic;
-    margin-bottom: 15px;
     text-shadow: 0px 3px rgba(0,0,0,0.6)
 }
+
+.links a{
+    text-decoration: none;
+    color:inherit;
+}
+
+
 .btn{
     border: 2px solid #FFCA33;
     background:none;

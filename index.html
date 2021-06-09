@@ -13,17 +13,46 @@
             <button onclick="fn()" class="btn" id="sbtn">Search</button>
         </header>
     <main>
-        <section class="lnumber">
-            <div id="number" class="number">ONE</div>
-            <div id="year" class="year">2006</div>
-        </section>
-        <div class="mission">
-            <div id="mname" class="name">Falcon Sat</div>
-         </div>
-        <div class="vehicle">
-            <div id="rname" class="rname">Falcon 1</div>
-            <div id="lsite" class="rtype">Kwajalein Atoll Omelek Island</div>
-        </div>
+        <div class="mission_wrapper">
+            <div class="mission">
+                <div class="detail_block detail_row">
+                     <span class="name">👨‍🚀</span>
+                     <div id="mname" class="name">Falcon Sat</div>
+                     <span class="name">👨‍🚀</span>
+                </div>
+            </div>
+            <div class="lnumber detail_row">
+                <div class="detail_block">
+                    <div class="label">Mission No : </div>
+                    <div id="number" class="number">1</div>
+                </div>
+                <div class="detail_block ">
+                    <div class="label">Launch Year :</div>
+                    <div id="year" class="year">2006</div>
+                </div>
+            </div>
+            <div class="vehicle detail_row">
+                <div class="detail_block">
+                    <div class="label">  Rocket Name :</div>
+                    <div id="rname" class="rname">Falcon 1</div>
+                </div>
+            </div>
+            <div class="launch_site detail_row">
+                <div class="detail_block">
+                    <div class="label">Launch Site :</div>
+                    <div id="lsite" class="rtype">Kwajalein Atoll Omelek Island</div>
+                </div>
+            </div>
+            <div class="links">
+                    <a id="artlink" class="artlink" target="_blank" href="https://www.space.com/2196-spacex-inaugural-falcon-1-rocket-lost-launch.html">
+                        <button class="btn">View Full Article</button>
+                    </a>
+                    <a id="vidlink" class="vidlink" target="_blank" href="https://www.youtube.com/watch?v=0a_00nJ_Y88">
+                        <button class="btn">Watch Launch</button>
+                    </a>
+                </button>
+            </div>
+       </div>
     </main>
     </div>
     <script src="main.js"></script>    
