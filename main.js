@@ -15,6 +15,8 @@ fetch(url+fnum).then(function(response){
     document.getElementById("mname").textContent=obj.mission_name;
     document.getElementById("rname").textContent= obj.rocket.rocket_name ;
     document.getElementById("lsite").textContent=obj.launch_site.site_name_long;
+    document.getElementById("artlink").href=obj.links.article_link;
+    document.getElementById("vidlink").href=obj.links.video_link;
 
     document.getElementById("artlink").href=obj.links.article_link;
     document.getElementById("vidlink").href=obj.links.video_link;
