@@ -6,14 +6,11 @@
 
 body {
     font-family: 'verdana' , sans-serif;
-    background-image: url('bg3.jpg');
-    background-position: bottom center;
-    background-size: cover;
+    background: url('bg3.jpg') no-repeat center center/cover fixed;
+  
 }
 
 .app-wrap{
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.3),rgba(0,0,0,0.6));
 }
@@ -28,14 +25,14 @@ header{
 header input{
     width: 100%;
     max-width: 350px;
-    padding: 13px 15px;
+    padding: 10px 15px;
     border: none;
     outline: none;
     background-color: rgba(255,255,255,0.9);
     border-radius: 12px;
     color: #313131;
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 300;
     transition: 0.2s ease-out;
 }
 
@@ -44,11 +41,7 @@ header input:focus {
 }
 
 main{
-    flex: 1 1 100%;
-    padding: 25px 25px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 14px 25px;
     text-align: center;
 }
 
@@ -66,13 +59,13 @@ main{
 }
 
 .detail_block{
-   display: flex;
+   /* display: flex; */
    justify-content: center;
    align-items: center;
    border: 1px solid #FFCA33;
    border-radius:10px;
    background:none;
-   padding:10px 20px;
+   padding:10px 13px;
    font-size: 20px;
    margin:10px;
    color:#FFCA33;
@@ -111,7 +104,7 @@ main{
 }
 
 .lnumber .year{
-    font-weight: 900;
+    font-weight: 700;
     text-shadow: 0px 3px rgba(0,0,0,0.6)
 }
 
@@ -139,7 +132,7 @@ main{
     padding:10px 20px;
     font-size: 20px;
     margin:10px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     color:#FFCA33;
     transition:0.8s;
     position: relative;
@@ -167,3 +160,49 @@ main{
 .mission_patch{
     margin-right: 5px;
 }
+@media(max-width:550px){
+    .lnumber .number{
+        font-size: 30px;
+    }
+    .mission .name{
+        font-size: 2rem;
+        text-shadow: 2px 4px rgba(0,0,0,0.6)
+    }
+    .vehicle .rname{
+font-size: 1.5em;
+    }
+}
+@media (max-width:450px){
+    header{
+        flex-direction: column;
+    }
+    header input{
+        max-width: 500px;
+    }
+    .btn{
+        padding: 10px 50px;
+        border-radius: 3px;
+    }
+    .lnumber .number{
+        font-size: 25px;
+    }
+
+    .mission .name{
+        font-size: 1.32rem;
+        text-shadow: 2px 4px rgba(0,0,0,0.6)
+    }
+    .vehicle .rname{
+        font-size: 1.35em;
+
+    }
+}
+
+@media (max-width:350px){
+    .detail_row{
+        display: block;
+    }
+    .youBtn{
+        padding: 10px 20px;
+    }
+}
+
