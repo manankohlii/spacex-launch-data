@@ -46,6 +46,9 @@ main{
 }
 
 .mission_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     min-width:50vw;
     min-height:60vh;
     border:3px solid #FFCA33;
@@ -156,9 +159,6 @@ main{
 }
 .btn:hover{
     color: #fff;
-}
-.mission_patch{
-    margin-right: 5px;
 }
 @media(max-width:550px){
     .lnumber .number{
