@@ -22,6 +22,16 @@ fetch(url+fnum).then(function(response){
     document.getElementById("vidlink").href=obj.links.video_link;
 }).catch(function(error){
     console.error('wrong');
+    document.getElementById("number").textContent= "NA";
+    document.getElementById("year").textContent="NA";
+    document.getElementById("mname").textContent="NA";
+    document.getElementById("rname").textContent= "NA";
+    document.getElementById("lsite").textContent="NA";
+    document.getElementById("artlink").href="NA";
+    document.getElementById("vidlink").href="NA";
+
+    document.getElementById("artlink").href=obj.links.article_link;
+    document.getElementById("vidlink").href=obj.links.video_link;
     console.error(error);
 });
 }
