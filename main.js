@@ -17,7 +17,7 @@ fetch(url+fnum).then(function(response){
     document.getElementById("lsite").textContent=obj.launch_site.site_name_long;
     document.getElementById("artlink").href=obj.links.article_link;
     document.getElementById("vidlink").href=obj.links.video_link;
-
+    document.getElementById("mission_patch").src=obj.links.mission_patch_small;
     document.getElementById("artlink").href=obj.links.article_link;
     document.getElementById("vidlink").href=obj.links.video_link;
 }).catch(function(error){
