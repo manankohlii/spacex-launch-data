@@ -14,7 +14,9 @@ Space related tecnology. <br><br>
 
 # Overview
 
-The main aim of the project is for bringing all content regarding space and tecnology.
+
+The main aim of the project is to get all information/content regarding space and technology. It mainly focuses to help students and researchers with space-related technology with one click.
+
 
 ## Contributing
 
