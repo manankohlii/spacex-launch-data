@@ -156,6 +156,8 @@ main{
 }
 .btn:hover{
     color: #fff;
+    text-shadow: 1px 1px 1px #f1c14ac7;
+    box-shadow: -1px 2px 7px #f5de69b5;
 }
 @media(max-width:550px){
     .lnumber .number{
@@ -201,4 +203,8 @@ font-size: 1.5em;
     .youBtn{
         padding: 10px 20px;
     }
+}
+/*Added Hovering*/
+.search-box:hover {
+    box-shadow: -1px 2px 4px rgb(138, 138, 138);
 }
