@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-    font-family: 'verdana' , sans-serif;
+    font-family: 'Righteous', cursive;
     background-image: url('bg3.jpg');
     background-position: bottom center;
     background-size: cover;
