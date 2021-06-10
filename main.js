@@ -29,7 +29,7 @@ fetch(url+fnum).then(function(response){
     document.getElementById("lsite").textContent="NA";
     document.getElementById("artlink").href="NA";
     document.getElementById("vidlink").href="NA";
-
+    document.getElementById("mission_patch").remove()
     document.getElementById("artlink").href=obj.links.article_link;
     document.getElementById("vidlink").href=obj.links.video_link;
     console.error(error);
