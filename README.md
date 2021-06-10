@@ -1,6 +1,5 @@
 # 🚀🚀🚀SpaceX Launch Data🚀🚀🚀
-Uses the freely available SpaceX API and basic HTML CSS and JS to give details of missions.The main aim of the repo is help many other students who are interested in 
-Space related tecnology. <br><br>
+Uses the freely available SpaceX API and basic HTML CSS and JS to give details of missions. The main aim of this project is to make [SpaceX](https://www.spacex.com/) related data easily available. <br><br>
 
 
 [SpaceX Data](https://launchspacex.netlify.app)
@@ -14,7 +13,7 @@ Space related tecnology. <br><br>
 
 # Overview
 
-The main aim of the project is for bringing all content regarding space and tecnology.
+The main aim of the project is to make data related to SpaceX easily available.
 
 ## Contributing
 
@@ -30,7 +29,6 @@ git clone --depth 1 https://github.com/<your_name>/spacex-launch-data.git
 
 ```
 cd spacex-launch-data
-
 ```
 
 **4.** Add a reference(remote) to the original repository.
@@ -40,6 +38,7 @@ git remote add upstream https://github.com/manankohlii/spacex-launch-data
 ```
 
 **5.** Check the remotes for this repository.
+
 ```
 git remote -v
 ```
@@ -79,7 +78,8 @@ git push -u origin <your_branch_name>
 **12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
 
 
-**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+**13.** Add appropriate title and description to your pull request explaining your changes and efforts done. Always make sure you have pulled the latest code from the master branch before making a PR.
+
 
 **14.** Click on `Create Pull Request`.
 
