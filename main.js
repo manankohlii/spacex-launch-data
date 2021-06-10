@@ -1,8 +1,32 @@
 let fnum;
 function fn(){
     var fnumber=document.getElementById("fnumber").value;
+if(fnumber=="")
+{
+alert("Please enter the mission number");
+
+
+}
+else if(isNaN(fnumber))
+{
+alert("Please enter numeric numbers");
+
+
+}
+else if((fnumber.length < 1) || (fnumber.length > 10))
+{
+alert("Length should not exceed 10");
+
+}
+else if(fnumber<1 || fnumber==0)
+{
+    alert("Negatives are not allowed");
+
+}
+else{
     fnum=fnumber;
     getData();
+}
 }
 let url= "https://api.spacexdata.com/v3/launches/"
 function getData(){
