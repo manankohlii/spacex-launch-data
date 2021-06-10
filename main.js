@@ -18,8 +18,19 @@ fetch(url+fnum).then(function(response){
     document.getElementById("artlink").href=obj.links.article_link;
     document.getElementById("vidlink").href=obj.links.video_link;
 
+    document.getElementById("artlink").href=obj.links.article_link;
+    document.getElementById("vidlink").href=obj.links.video_link;
 }).catch(function(error){
     console.error('wrong');
     console.error(error);
 });
 }
+
+// On Hit Enter
+var input = document.getElementById("fnumber");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("sbtn").click();
+  }
+});
