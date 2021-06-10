@@ -163,4 +163,9 @@ main{
 }
 .btn:hover{
     color: #fff;
+    text-shadow: 1px 1px 1px #f1c14ac7;
+    box-shadow: -1px 2px 7px #f5de69b5;
+}
+.search-box:hover {
+    box-shadow: -1px 2px 4px grey;
 }
