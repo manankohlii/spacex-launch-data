@@ -6,7 +6,7 @@
 
 body {
     font-family: 'verdana' , sans-serif;
-    background: url('bg3.jpg') no-repeat center center/cover fixed;
+    background: url('bg1.png') no-repeat center center/cover fixed;
   
 }
 
@@ -20,6 +20,14 @@ header{
     justify-content: center;
     align-items: center;
     padding: 50px 15px 15px;
+}
+
+
+#particles-js{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 header input{
@@ -161,6 +169,38 @@ main{
     color: #fff;
     text-shadow: 1px 1px 1px #f1c14ac7;
     box-shadow: -1px 2px 7px #f5de69b5;
+}
+
+footer{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.profile-link{
+    text-decoration: none;
+    color: #ffffff;
+    word-spacing: 12px;  
+}
+
+.profile-link:hover{
+    color: #ffca33;
+}
+
+#git-img{
+    width: 30px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+#link-img{
+    width: 30px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    vertical-align: middle;
 }
 
 @media(max-width:550px){
