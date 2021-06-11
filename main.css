@@ -171,6 +171,7 @@ main{
     box-shadow: -1px 2px 7px #f5de69b5;
 }
 
+/*Added github and linkedin icons and their links in footer, css for footer items starting here*/
 footer{
     text-align: center;
     margin-top: 15px;
@@ -202,6 +203,7 @@ footer{
     border-radius: 5px;
     vertical-align: middle;
 }
+/*css for footer items ending here*/
 
 @media(max-width:550px){
     .lnumber .number{
