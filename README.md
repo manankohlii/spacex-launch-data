@@ -21,10 +21,6 @@ Uses the freely available [SpaceX API](https://github.com/r-spacex/SpaceX-API) a
 
 
 
-## Owner
-
- [Manan Kohli👨‍💻](https://github.com/manankohlii)✨
-
 # Overview
 
 The main aim of the project is to make data related to SpaceX easily available.
@@ -101,4 +97,8 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-<h1 align=center>Happy Coding 👨‍💻 </h1> -->
+<h1 align=center>Happy Coding 👨‍💻 </h1> 
+
+# Owner
+
+[Manan Kohli👨‍💻](https://github.com/manankohlii)✨
