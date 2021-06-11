@@ -6,7 +6,7 @@
 
 body {
     font-family: 'verdana' , sans-serif;
-    background: url('bg3.jpg') no-repeat center center/cover fixed;
+    background: url('bg1.png') no-repeat center center/cover fixed;
   
 }
 
@@ -20,6 +20,14 @@ header{
     justify-content: center;
     align-items: center;
     padding: 50px 15px 15px;
+}
+
+
+#particles-js{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 header input{
