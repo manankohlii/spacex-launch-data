@@ -163,24 +163,25 @@ main{
     box-shadow: -1px 2px 7px #f5de69b5;
 }
 
-#footer{
+footer{
      text-align: center;
 }
+
 #profile-link{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     color: #ffffff;
     word-spacing: 12px;  
 }
 
 #git-img{
-    width: 25px;
+    width: 30px;
     height: auto;
     vertical-align:middle;
 }
 
 #link-img{
-    width: 25px;
+    width: 30px;
     height: auto;
     vertical-align:middle;
 }
