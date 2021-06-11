@@ -22,6 +22,13 @@ header{
     padding: 50px 15px 15px;
 }
 
+
+#particles-js{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
 header input{
     width: 100%;
     max-width: 350px;
