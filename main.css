@@ -7,8 +7,13 @@
 
 body {
     font-family: 'verdana' , sans-serif;
+
     background: url('bg3.jpg') no-repeat center center/cover fixed;
  
+
+    background: url('bg1.png') no-repeat center center/cover fixed;
+  
+
 }
 
 .app-wrap{
@@ -21,6 +26,14 @@ header{
     justify-content: center;
     align-items: center;
     padding: 50px 15px 15px;
+}
+
+
+#particles-js{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 header input{
@@ -332,3 +345,68 @@ font-size: 1.5em;
     box-shadow: -1px 2px 4px rgb(138, 138, 138);
 }
 
+/*Footer*/
+footer{
+
+    background-color: #000000;
+
+    text-align: center;
+
+    padding-bottom: 15px;
+
+}
+.sm-handle{
+
+    display: flex;
+
+    padding-top: 2rem;
+
+    justify-content: center;
+
+}
+.sm-button{
+
+    margin: 0px 10px 0px;
+
+        border: 1px solid #bababa;
+
+        border-radius: 100%;
+
+        width: 2rem;
+
+        height: 2rem;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        cursor: pointer;
+
+    }
+
+    .sm-button:hover{
+
+        background: linear-gradient(to right, #6500ff, #f3df27	);
+
+    }
+
+    .fab{
+
+    color: #fff;
+
+    font-size: 16px;
+
+    }
+    .copyright{
+
+        font-size: 10px;
+
+        color: white;
+
+        letter-spacing: 1.5px;
+
+        word-spacing: 2px;
+
+    }

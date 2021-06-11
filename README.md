@@ -1,6 +1,5 @@
 # 🚀🚀🚀SpaceX Launch Data🚀🚀🚀
-Uses the freely available [SpaceX API](https://github.com/r-spacex/SpaceX-API) and basic HTML CSS and JS to give details of missions. The main aim of this project is to make [SpaceX](https://www.spacex.com/) related data easily available. <br><br>
-
+Uses the freely available [SpaceX API](https://github.com/r-spacex/SpaceX-API) and basic HTML CSS and JS to give details of missions. The main aim of this project is to make [SpaceX](https://www.spacex.com/) related data easily available. <br>
 
 [Launch SpaceX](https://launchspacex.netlify.app)❤️
 
@@ -13,11 +12,15 @@ Uses the freely available [SpaceX API](https://github.com/r-spacex/SpaceX-API) a
  <img src="https://img.shields.io/badge/Join community%20-Slack-4A154B.svg?&logo=slack" alt="Join Slack Community" />
 </a>
 
-[![GitHub stars](https://img.shields.io/github/stars/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/stargazers)&nbsp;
-[![GitHub forks](https://img.shields.io/github/forks/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/network)&nbsp;
-[![GitHub issues](https://img.shields.io/github/issues/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data)&nbsp;
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/pulls)&nbsp;
-[![GitHub Contributers](https://img.shields.io/github/contributors/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/graphs/contributers)&nbsp;
+[![GitHub stars](https://img.shields.io/github/stars/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/network/members)
+[![GitHub Contributers](https://img.shields.io/github/contributors/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/issues)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/pulls)
+[![GitHub closed-issues](https://img.shields.io/github/issues-closed-raw/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/pulls)
+[![GitHub closed-prs](https://img.shields.io/github/issues-pr-closed-raw/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/pulls)
+
+
 
 
 
@@ -28,7 +31,7 @@ The main aim of the project is to make data related to SpaceX easily available.
 # Tech Stack
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/manankohlii/spacex-launch-data/search?l=html)&nbsp;
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/manankohlii/spacex-launch-data/search?l=css)&nbsp;
-[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/manankohlii/spacex-launch-data/search?l=javascript)&nbsp;
+[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/manankohlii/spacex-launch-data/search?l=javascript)
 
 ## Contributing
 
@@ -70,7 +73,7 @@ git checkout -b <your_branch_name>
 ```
 
 **8.** Perfom your desired changes to the code base.
-
+<p align="center"><img width=35% src="https://media2.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47pzi2rpig0vc8pjusra8hiai1b91zgiywvbubu9vu&rid=giphy.gif"></p>
 
 **9.** Track your changes:heavy_check_mark: .
 
@@ -96,7 +99,11 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-<h1 align=center>Happy Coding 👨‍💻 </h1> 
+## ✨Our valuable Contributors👩‍💻👨‍💻 :
+<a href="https://github.com/manankohlii/spacex-launch-data/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=manankohlii/spacex-launch-data" />
+</a>
+
 
 🌟 Contributors 
 Thanks goes to these wonderful people ✨✨:
@@ -112,4 +119,16 @@ Thanks goes to these wonderful people ✨✨:
 # Owner
 
 [Manan Kohli👨‍💻](https://github.com/manankohlii)✨
+
+
+## Project Admin👨‍
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/manankohlii"><img src="https://avatars.githubusercontent.com/u/43683368?v=4" height="120px" width="120px"/><br/><sub><b>Manan Kohli👨‍</b></sub></a></td>
+  </tr>
+</table>
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
 
