@@ -164,7 +164,9 @@ main{
 }
 
 footer{
-     text-align: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #profile-link{
