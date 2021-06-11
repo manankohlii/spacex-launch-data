@@ -14,10 +14,10 @@ Uses the freely available [SpaceX API](https://github.com/r-spacex/SpaceX-API) a
 </a>
 
 [![GitHub stars](https://img.shields.io/github/stars/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/stargazers)&nbsp;
-[![GitHub forks](https://img.shields.io/github/forks/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/network)&nbsp;
-[![GitHub issues](https://img.shields.io/github/issues/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data)&nbsp;
+[![GitHub forks](https://img.shields.io/github/forks/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/network/members)&nbsp;
+[![GitHub issues](https://img.shields.io/github/issues/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/issues)&nbsp;
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/pulls)&nbsp;
-[![GitHub Contributers](https://img.shields.io/github/contributors/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/graphs/contributers)&nbsp;
+[![GitHub Contributers](https://img.shields.io/github/contributors/manankohlii/spacex-launch-data)](https://github.com/manankohlii/spacex-launch-data/graphs/contributors)&nbsp;
 
 
 
