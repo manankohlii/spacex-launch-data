@@ -1,6 +1,5 @@
 # 🚀🚀🚀SpaceX Launch Data🚀🚀🚀
-Uses the freely available SpaceX API and basic HTML CSS and JS to give details of missions.The main aim of the repo is help many other students who are interested in 
-Space related tecnology. <br>
+Uses the freely available SpaceX API and basic HTML CSS and JS to give details of missions. The main aim of this project is to make [SpaceX](https://www.spacex.com/) related data easily available. <br><br>
 
 [SpaceX Launch Data](http://spacexlaunchdata.herokuapp.com) 🚀   [Github Pages](https://github.com/manankohlii/spacex-launch-data/commits?author=manankohlii) ❤️
 <br>
@@ -28,7 +27,7 @@ Space related tecnology. <br>
 
 # Overview
 
-The main aim of the project is for bringing all content regarding space and tecnology.
+The main aim of the project is to make data related to SpaceX easily available.
 
 # Tech Stack
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/manankohlii/spacex-launch-data/search?l=html)&nbsp;
@@ -98,7 +97,7 @@ git push -u origin <your_branch_name>
 **12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
 
 
-**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+**13.** Add appropriate title and description to your pull request explaining your changes and efforts done. Always make sure you have pulled the latest code from the master branch before making a PR.
 
 **14.** Click on `Create Pull Request`.
 
