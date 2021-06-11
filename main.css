@@ -169,7 +169,7 @@ main{
     box-shadow: -1px 2px 7px #f5de69b5;
 }
 
-
+/* neon button css */
 
 #v {
     
@@ -200,10 +200,6 @@ main{
     box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3, 0 0 80px #2196f3;
     transition-delay: 1s; 
 }
-/* 
-#donate:focus {
-    outline: none;
-} */
 
 .neon{
     position: absolute;
@@ -275,29 +271,12 @@ main{
     margin-left: 8px;
 }
 .dark{
-    /* background-color: #222; */
+
     color:greenyellow;
 }
 .sh{
     box-shadow: rgba(0,255,0 ,0.4) 5px 5px, rgba(0,255,0, 0.3) 10px 10px, rgba(0,255,0, 0.2) 15px 15px, rgba(0,255,0, 0.1) 20px 20px, rgba(0,255,0, 0.05) 25px 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media(max-width:550px){
     .lnumber .number{
