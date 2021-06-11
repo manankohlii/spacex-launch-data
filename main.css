@@ -165,13 +165,12 @@ main{
 
 footer{
     text-align: center;
-    margin-top: 21px;
-    margin-bottom: 21px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #profile-link{
     text-decoration: none;
-    font-size: 15px;
     color: #ffffff;
     word-spacing: 12px;  
 }
@@ -179,13 +178,17 @@ footer{
 #git-img{
     width: 30px;
     height: auto;
-    vertical-align:middle;
+    background-color: white;
+    border-radius: 5px;
+    vertical-align: middle;
 }
 
 #link-img{
     width: 30px;
     height: auto;
-    vertical-align:middle;
+    background-color: white;
+    border-radius: 5px;
+    vertical-align: middle;
 }
 
 @media(max-width:550px){
