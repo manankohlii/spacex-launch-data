@@ -46,6 +46,9 @@ main{
 }
 
 .mission_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     min-width:50vw;
     min-height:60vh;
     border:3px solid #FFCA33;
@@ -204,7 +207,9 @@ font-size: 1.5em;
         padding: 10px 20px;
     }
 }
+
 /*Added Hovering*/
 .search-box:hover {
     box-shadow: -1px 2px 4px rgb(138, 138, 138);
 }
+
