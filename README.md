@@ -44,7 +44,6 @@ git clone --depth 1 https://github.com/<your_name>/spacex-launch-data.git
 
 ```
 cd spacex-launch-data
-
 ```
 
 **4.** Add a reference(remote) to the original repository.
