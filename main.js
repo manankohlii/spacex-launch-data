@@ -17,7 +17,7 @@ fetch(url+fnum).then(function(response){
     document.getElementById("lsite").textContent=obj.launch_site.site_name_long;
     document.getElementById("artlink").href=obj.links.article_link;
     document.getElementById("vidlink").href=obj.links.video_link;
-    document.getElementById("mission_patch").style.visibility = "visible";
+    document.getElementById("mission_patch").style.display = "block";
     document.getElementById("mission_patch").src=obj.links.mission_patch_small;
     document.getElementById("artlink").href=obj.links.article_link;
     document.getElementById("vidlink").href=obj.links.video_link;
@@ -30,7 +30,7 @@ fetch(url+fnum).then(function(response){
     document.getElementById("lsite").textContent="NA";
     document.getElementById("artlink").href="NA";
     document.getElementById("vidlink").href="NA";
-    document.getElementById("mission_patch").style.visibility = "hidden";
+    document.getElementById("mission_patch").style.display = "none";
     document.getElementById("artlink").href=obj.links.article_link;
     document.getElementById("vidlink").href=obj.links.video_link;
     console.error(error);
