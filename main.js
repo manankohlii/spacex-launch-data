@@ -45,3 +45,18 @@ input.addEventListener("keyup", function(event) {
    document.getElementById("sbtn").click();
   }
 });
+	
+
+$( ".change" ).on("click", function() {
+    if( $( "*" ).hasClass( "dark" )) {
+        $( "*" ).removeClass( "dark" );
+        $("header input").removeClass("bg");
+        $(".detail_block").removeClass("sh")
+        $( ".change" ).text( "OFF" );
+    } else {
+        $( "*" ).addClass( "dark" );
+        $(".detail_block").addClass("sh")
+        $("header input").addClass("bg")
+        $( ".change" ).text( "ON" );
+    }
+});

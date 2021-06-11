@@ -104,6 +104,23 @@ git push -u origin <your_branch_name>
   <img src="https://contrib.rocks/image?repo=manankohlii/spacex-launch-data" />
 </a>
 
+
+🌟 Contributors 
+Thanks goes to these wonderful people ✨✨:
+<p style="clear:both;">
+<h1><a name="contributing"></a><a name="community"></a> 
+<a href="https://github.com/manankohlii/spacex-launch-data/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=manankohlii/spacex-launch-data" />
+</a>
+
+</p>
+
+
+# Owner
+
+[Manan Kohli👨‍💻](https://github.com/manankohlii)✨
+
+
 ## Project Admin👨‍
 <table>
   <tr>
@@ -114,3 +131,4 @@ git push -u origin <your_branch_name>
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
+

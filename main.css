@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: 'verdana' , sans-serif;
+
+    background: url('bg3.jpg') no-repeat center center/cover fixed;
+ 
+
     background: url('bg1.png') no-repeat center center/cover fixed;
   
+
 }
 
 .app-wrap{
@@ -42,6 +48,10 @@ header input{
     font-size: 20px;
     font-weight: 300;
     transition: 0.2s ease-out;
+  
+}
+.bg{
+    background-color: #313131;
 }
 
 header input:focus {
@@ -80,6 +90,8 @@ main{
    font-size: 20px;
    margin:10px;
    color:#FFCA33;
+   
+   
 }
 
 
@@ -143,13 +155,15 @@ main{
     padding:10px 20px;
     font-size: 20px;
     margin:10px;
-    /* margin-left: 40px; */
+    margin-left: 40px; 
     color:#FFCA33;
     transition:0.8s;
     position: relative;
     border-radius: 6px;
     overflow:hidden;
-    cursor: pointer;
+    cursor: pointer; 
+
+    
 }
 .btn::before{
     content: '';
@@ -170,6 +184,116 @@ main{
     text-shadow: 1px 1px 1px #f1c14ac7;
     box-shadow: -1px 2px 7px #f5de69b5;
 }
+
+/* neon button css */
+
+#v {
+    
+
+    border-radius: 10px;
+
+
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#v:hover {
+     transform: translate3d(0, 5px,0);
+    
+    cursor: pointer;
+
+   
+    color: #255784; 
+    background-color: #2196f3; 
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 1s; 
+}
+
+.neon{
+    position: absolute;
+    display: block;
+
+}
+.neon:nth-child(1){
+
+    top: 0;
+    left: -50%;
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(90deg,transparent,#2196f3);
+}
+#v:hover .neon:nth-child(1){
+
+    left: 100%;
+    transition: 1s;
+}
+.neon:nth-child(3){
+    bottom: 0;
+    right: -50%;
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(270deg,transparent,#2196f3);
+}
+#v:hover .neon:nth-child(3){
+    right: 50%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+.neon:nth-child(2){
+    top:-100%;
+    right: 0;
+    width: 2px;
+    height:70%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+}
+#v:hover .neon:nth-child(2){
+    top: 30%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.neon:nth-child(4){
+    bottom:-100%;
+    left: 0;
+    width: 2px;
+    height:70%;
+    background: linear-gradient(360deg,transparent,#2196f3);
+}
+#v:hover .neon:nth-child(4){
+    bottom:  100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+.mode {
+    float:right;
+}
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+.dark{
+
+    color:greenyellow;
+}
+.sh{
+    box-shadow: rgba(0,255,0 ,0.4) 5px 5px, rgba(0,255,0, 0.3) 10px 10px, rgba(0,255,0, 0.2) 15px 15px, rgba(0,255,0, 0.1) 20px 20px, rgba(0,255,0, 0.05) 25px 25px;
+}
+
 @media(max-width:550px){
     .lnumber .number{
         font-size: 30px;
