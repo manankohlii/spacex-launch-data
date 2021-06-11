@@ -169,13 +169,13 @@ footer{
     margin-bottom: 15px;
 }
 
-#profile-link{
+.profile-link{
     text-decoration: none;
     color: #ffffff;
     word-spacing: 12px;  
 }
 
-#profile-link:hover{
+.profile-link:hover{
     color: #ffca33;
 }
 
