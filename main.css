@@ -175,6 +175,10 @@ footer{
     word-spacing: 12px;  
 }
 
+#profile-link:hover{
+    color: #ffca33;
+}
+
 #git-img{
     width: 30px;
     height: auto;
