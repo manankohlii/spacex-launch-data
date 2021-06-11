@@ -1,8 +1,8 @@
 # 🚀🚀🚀SpaceX Launch Data🚀🚀🚀
-Uses the freely available SpaceX API and basic HTML CSS and JS to give details of missions. The main aim of this project is to make [SpaceX](https://www.spacex.com/) related data easily available. <br><br>
+Uses the freely available [SpaceX API](https://github.com/r-spacex/SpaceX-API) and basic HTML CSS and JS to give details of missions. The main aim of this project is to make [SpaceX](https://www.spacex.com/) related data easily available. <br><br>
 
-[SpaceX Launch Data](http://spacexlaunchdata.herokuapp.com) 🚀   [Github Pages](https://github.com/manankohlii/spacex-launch-data/commits?author=manankohlii) ❤️
-<br>
+
+[Launch SpaceX](https://launchspacex.netlify.app)❤️
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/manankohlii/spacex-launch-data)&nbsp;
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/manankohlii/spacex-launch-data)&nbsp;
