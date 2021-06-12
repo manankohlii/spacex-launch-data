@@ -52,7 +52,7 @@ cd spacex-launch-data
 **4.** Add a reference(remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/manankohlii/spacex-launch-data
+git remote add upstream https://github.com/manankohlii/spacex-launch-data.git
 ```
 
 **5.** Check the remotes for this repository.
