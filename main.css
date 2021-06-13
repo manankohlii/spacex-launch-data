@@ -7,7 +7,7 @@
 body {
     font-family: 'verdana' , sans-serif;
     background: url('space\ animation.gif') no-repeat center center/cover fixed;
-  
+
 }
 
 .app-wrap{
@@ -21,7 +21,6 @@ header{
     align-items: center;
     padding: 50px 15px 15px;
 }
-
 
 #particles-js{
     position: fixed;
@@ -82,13 +81,10 @@ main{
    color:#FFCA33;
 }
 
-
 .label{
   color:#FFF;
   margin-right:5px;
 }
-
-
 
 .mission .name{
     color: #FFCA33;
@@ -135,7 +131,6 @@ main{
     text-decoration: none;
     color:inherit;
 }
-
 
 .btn{
     border: 2px solid #FFCA33;
@@ -223,66 +218,38 @@ font-size: 1.5em;
 
 /*Footer*/
 footer{
-
     background-color: #000000;
-
     text-align: center;
-
     padding-bottom: 15px;
-
 }
 .sm-handle{
-
     display: flex;
-
     padding-top: 2rem;
-
     justify-content: center;
-
 }
 .sm-button{
-
     margin: 0px 10px 0px;
-
-        border: 1px solid #bababa;
-
-        border-radius: 100%;
-
-        width: 2rem;
-
-        height: 2rem;
-
-        display: flex;
-
-        align-items: center;
-
-        justify-content: center;
-
-        cursor: pointer;
-
+    border-radius: 100%;
+    border: 1px solid #bababa;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
     }
+.sm-button:hover{
+    background: linear-gradient(to right, #6500ff, #f3df27	);
+}
 
-    .sm-button:hover{
-
-        background: linear-gradient(to right, #6500ff, #f3df27	);
-
-    }
-
-    .fab{
-
+.fab{
     color: #fff;
-
     font-size: 16px;
 
-    }
-    .copyright{
-
-        font-size: 10px;
-
-        color: white;
-
-        letter-spacing: 1.5px;
-
-        word-spacing: 2px;
-
-    }
+}
+.copyright{
+    font-size: 10px;
+    word-spacing: 2px;
+    color: white;
+    letter-spacing: 1.5px;
+}
