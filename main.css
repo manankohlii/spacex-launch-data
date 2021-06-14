@@ -218,6 +218,9 @@ font-size: 1.5em;
 /*Footer*/
 footer{
     background-color: #000000;
+    /* background: rgb(2,0,36); */
+    animation: glow 3s ease-in-out infinite alternate;
+    background: linear-gradient(90deg, #FF8633 -40%, black 50%, #FF8633 140%); 
     text-align: center;
     padding-bottom: 15px;
 }
