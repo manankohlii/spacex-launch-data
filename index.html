@@ -54,38 +54,39 @@
                     <a id="artlink" class="artlink" target="_blank" href="https://www.space.com/2196-spacex-inaugural-falcon-1-rocket-lost-launch.html">
                         <button class="btn youBtn">View Full Article</button>
                     </a>
-                    <a id="vidlink" class="vidlink" target="_blank" href="https://www.youtube.com/watch?v=0a_00nJ_Y88">
-                        <button class="btn youBtn">Watch Launch</button>
-                    </a>
+                    <button id="vidBtn" class="btn youBtn">Watch Launch </button>
                 </button>
             </div>
        </div>
+       <div class="overlay overlay__hidden"></div>
     </main>
+    <div class="modal modal__hidden">
+        <div class="modal__contents">
+          <div class="modal__closebar">
+            <i class="far fa-times-circle"></i>
+          </div>
+          <div class="video__container">
+              <iframe id="vidframe" src="https://www.youtube.com/embed/0a_00nJ_Y88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
     </div>
-    <script src="js/main.js"></script>
     <footer>
         <div class="sm-handle">
             <a href="https://linkedin.com/in/manan-kohli" class="sm-button" target="_blank">
 
                 <i class="fab fa-linkedin">	</i>
-
-</a>
-<a href="https://github.com/manankohlii" class="sm-button" target="_blank">
-
-    <i class="fab fa-github"></i>
-
-</a>
-
-<a href="https://twitter.com/manankohlii" class="sm-button" target="_blank">
-
-    <i class="fab fa-twitter"></i>
-
-</a>
-
-</div>
-<br>
-<p class="copyright">&copy Copyright 2021 |❤️Manan Kohli</a></p>
-
+            </a>
+            <a href="https://github.com/manankohlii" class="sm-button" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/manankohlii" class="sm-button" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            </div>
+            <br>
+            <p class="copyright">&copy Copyright 2021 |❤️Manan Kohli</a></p>
     </footer>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
