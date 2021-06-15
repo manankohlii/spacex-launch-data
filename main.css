@@ -164,6 +164,75 @@ main{
     text-shadow: 1px 1px 1px #f1c14ac7;
     box-shadow: -1px 2px 7px #f5de69b5;
 }
+
+/*Video Modal*/
+.overlay {
+    background-color: rgba(0,0,0,0.6);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay__hidden {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    top: 25%;
+    bottom:25%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.modal__hidden {
+    display: none;
+}
+
+
+.video__container {
+    overflow: hidden;
+    position: relative;
+    width:calc(100px + 55vw);
+    margin:5px;
+    border:2px solid #FFCA33;
+	height:auto;
+}
+
+.video__container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video__container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal__closebar {
+    width:fit-content;
+    color:#FFCA33;
+    border:2px solid #FFCA33;
+    padding:8px 10px;
+    border-radius:50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: -2rem;
+    margin-right:-2rem;
+}
+
 @media(max-width:550px){
     .lnumber .number{
         font-size: 30px;
@@ -174,6 +243,16 @@ main{
     }
     .vehicle .rname{
 font-size: 1.5em;
+    }
+    .video__container {
+        padding:0;
+        margin:0px;
+        width:calc(100px + 60vw);
+    }
+    .modal__closebar {
+        padding:4px 6px;
+        margin-top: -1.5rem;
+        margin-right:-1.5rem;
     }
 }
 @media (max-width:450px){
@@ -218,7 +297,6 @@ font-size: 1.5em;
 /*Footer*/
 footer{
     background-color: #000000;
-    /* background: rgb(2,0,36); */
     animation: glow 3s ease-in-out infinite alternate;
     background: linear-gradient(90deg, #FF8633 -40%, black 50%, #FF8633 140%); 
     text-align: center;
