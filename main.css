@@ -55,8 +55,8 @@ main{
     position: absolute;
     color: white;
     font-size: 30px;
-    left: 42px;
-    top: 24px;
+    left: 22px;
+    top: 12px;
     cursor: pointer;
     z-index: 1;
   }
