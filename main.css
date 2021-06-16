@@ -7,6 +7,8 @@
 body {
     font-family: 'verdana' , sans-serif;
     background: url('images/bg1.png') no-repeat center center/cover fixed;
+    min-height: 400px;
+   margin-bottom: 100px;
 }
 
 .app-wrap{
@@ -315,6 +317,10 @@ footer{
     background: linear-gradient(90deg, #FF8633 -40%, black 50%, #FF8633 140%); 
     text-align: center;
     padding-bottom: 15px;
+    position: fixed;
+    left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .sm-handle{
     display: flex;
