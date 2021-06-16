@@ -43,6 +43,13 @@ input.addEventListener("keyup", function(event) {
   }
 });
 
+function openMenu(){
+  document.getElementById("navbar").style.height = "100%";
+}
+function closeMenu(){
+  document.getElementById("navbar").style.height = "0%";
+}
+
 //Modal event handlers
 const toggleModal = () => {
     document.querySelector('.modal')
