@@ -106,6 +106,7 @@ main{
     transition:0.8s;
     position: relative;
     overflow:hidden;
+    cursor: pointer;
 }
 .btn:hover{
     border: 1px solid #FF8633;
