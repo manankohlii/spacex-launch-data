@@ -55,8 +55,12 @@ main{
     position: absolute;
     color: white;
     font-size: 30px;
-    left: 22px;
-    top: 12px;
+    right: 22px;
+    top: 5px;
+    border: 0.3px solid #464646;
+    border-radius: 5px;;
+    padding-left: 10px;
+    padding-right: 10px;
     cursor: pointer;
     z-index: 1;
   }
