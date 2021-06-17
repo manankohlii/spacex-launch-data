@@ -4,28 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpacexMK</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="main.css"/>
+    
 </head>
 <body>
+    <div id="particles-js"></div>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <div class="container">
+        <span class="menu-icon" onclick="openMenu()">&#9776;</span>
+      </div>
+    <div class="menu-container" id="navbar">
+        <span class="closebtn" onclick="closeMenu()">&times;</span>
+        <div class="menu-content">
+          <a href="#">Launches</a>
+          <a href="#">Rockets</a>
+          <a href="#">Cores</a>
+        </div>
+      </div>
     <div class="app-wrap">
         <header>
             <input id="fnumber" type="text" autocomplete="off" class="search-box" placeholder="Enter mission number">
-            <button onclick="fn()" class="btn">Search</button>
+            <button onclick="fn()" class="btn" id="sbtn">Search</button>
         </header>
     <main>
-        <section class="lnumber">
-            <div id="number" class="number">ONE</div>
-            <div id="year" class="year">2006</div>
-        </section>
-        <div class="mission">
-            <div id="mname" class="name">Falcon Sat</div>
-         </div>
-        <div class="vehicle">
-            <div id="rname" class="rname">Falcon 1</div>
-            <div id="lsite" class="rtype">Kwajalein Atoll Omelek Island</div>
-        </div>
+        <div class="mission_wrapper">
+            <div class="mission">
+                <div class="detail_block1 detail_row">
+                    <div class="anime">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div>
+                     <div class="name">👨‍🚀</div>
+                     <div id="mname" class="name">Falcon Sat</div>
+                     <div class="name">👨‍🚀</div>
+                </div>
+            </div>
+            <img src = "https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png" id="mission_patch" class="mission_patch" alt = "mission patch" height=200 width=200 align=right>
+            <div class="lnumber detail_row">
+                <div class="detail_block">
+                    <div class="label">Mission No : </div>
+                    <div id="number" class="number">1</div>
+                </div>
+                <div class="detail_block ">
+                    <div class="label">Launch Year :</div>
+                    <div id="year" class="year">2006</div>
+                </div>
+            </div>
+            <div class="vehicle detail_row">
+                <div class="detail_block">
+                    <div class="label">  Rocket Name :</div>
+                    <div id="rname" class="rname">Falcon 1</div>
+                </div>
+            </div>
+            <div class="launch_site detail_row">
+                <div class="detail_block">
+                    <div class="label">Launch Site :</div>
+                    <div id="lsite" class="rtype">Kwajalein Atoll Omelek Island</div>
+                </div>
+            </div>
+            <div class="links">
+                    <a id="artlink" class="artlink" target="_blank" href="https://www.space.com/2196-spacex-inaugural-falcon-1-rocket-lost-launch.html">
+                        <button class="btn youBtn">View Full Article</button>
+                    </a>
+                    <button id="vidBtn" class="btn youBtn">Watch Launch </button>
+                </button>
+            </div>
+       </div>
+       <div class="overlay overlay__hidden"></div>
     </main>
+    <div class="modal modal__hidden">
+        <div class="modal__contents">
+          <div class="modal__closebar">
+            <i class="far fa-times-circle"></i>
+          </div>
+          <div class="video__container">
+              <iframe id="vidframe" src="https://www.youtube.com/embed/0a_00nJ_Y88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
     </div>
-    <script src="main.js"></script>    
+    <footer>
+        <div class="sm-handle">
+            <a href="https://linkedin.com/in/manan-kohli" class="sm-button" target="_blank">
+
+                <i class="fab fa-linkedin">	</i>
+            </a>
+            <a href="https://github.com/manankohlii" class="sm-button" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/manankohlii" class="sm-button" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            </div>
+            <br>
+            <p class="copyright">&copy Copyright 2021 |❤️Manan Kohli</a></p>
+    </footer>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
