@@ -136,17 +136,17 @@ main {
 }
 
 .btn {
-  border: 3px solid #7952b3;
+  border: 3px solid #ffca33;
   background: none;
   padding: 10px 20px;
   font-size: 20px;
   margin: 10px;
   /* margin-left: 40px; */
-  color: #ffca33;
+  color: #0bbaf0;
   transition: 0.8s;
   background-color: #0e0b0b;
   position: relative;
-  border-radius: 6px;
+  border-radius: 30px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -166,7 +166,7 @@ main {
   left: 0;
 }
 .btn:hover {
-  color: #4cc9f0;
+  color: #0bbaf0;
   text-shadow: 1px 1px 1px #dceaebc5;
   box-shadow: -1px 2px 7px #d2d3d3f8;
 }
