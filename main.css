@@ -101,7 +101,7 @@ main {
 }
 
 .menu-content a:hover {
-  background-color: #ffca33;
+  background-color: #ffc31e;
   color: black;
   opacity: 1;
   transition: 0.8s;
