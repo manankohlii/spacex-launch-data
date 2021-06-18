@@ -44,7 +44,7 @@ input.addEventListener("keyup", function(event) {
 });
 
 function openMenu(){
-  document.getElementById("navbar").style.height = "100%";
+  document.getElementById("navbar").style.height = "50%";
 }
 function closeMenu(){
   document.getElementById("navbar").style.height = "0%";
