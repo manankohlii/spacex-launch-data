@@ -1,6 +1,7 @@
 let fnum;
 function fn(){
-    var fnumber=document.getElementById("fnumber").value;
+  var fnumber=document.getElementById("fnumber").value;
+    document.getElementById("fnumber").value="";
     fnum=fnumber;
     getData();
 }
@@ -75,4 +76,3 @@ const stopVideo = () => {
   
   document.querySelector('.modal__closebar')
     .addEventListener('click', toggleModal);
-
