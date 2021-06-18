@@ -256,10 +256,11 @@ main {
   font-size: 20px;
   margin: 10px;
   /* margin-left: 40px; */
-  color: #ffca33;
+  color: #4cc9f0;
+  font-weight: 700;
   transition: 0.8s;
   position: relative;
-  border-radius: 6px;
+  border-radius: 30px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -279,9 +280,9 @@ main {
   left: 0;
 }
 .btn:hover {
-  color: #fff;
-  text-shadow: 1px 1px 1px #f1c14ac7;
-  box-shadow: -1px 2px 7px #f5de69b5;
+  /* color: #fff; */
+  /* text-shadow: 1px 1px 1px #ffffffc7; */
+  box-shadow: -1px 2px 7px #9c9c9cb5;
 }
 @media (max-width: 550px) {
   .lnumber .number {
