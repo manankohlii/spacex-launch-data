@@ -64,6 +64,7 @@ main {
   justify-content: space-between;
 }
 .container .menu-icon {
+  position: absolute;
   color: white;
   font-size: 30px;
   right: 22px;
@@ -72,7 +73,7 @@ main {
   border-radius: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  margin: 20px;
+  margin-right: -15px;
   cursor: pointer;
   z-index: 1;
 }
@@ -403,7 +404,7 @@ main {
   margin-top: -2rem;
   margin-right: -2rem;
 }
-@media (min-width: 1020px) {
+@media (min-width: 1025px) {
   .spa {
     display: none;
   }
