@@ -22,7 +22,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 15px 15px;
+  padding: 10px 15px 15px;
+}
+.logo img {
+  padding-top: 5px;
+  height: 13%;
+  width: 13%;
 }
 
 #particles-js {
@@ -395,10 +400,23 @@ main {
   margin-top: -2rem;
   margin-right: -2rem;
 }
+@media (max-width: 1050px) {
+  .logo {
+    padding-left: 37%;
+  }
 
+  .logo img {
+    height: 20%;
+    width: 20%;
+  }
+}
 @media (max-width: 550px) {
   .lnumber .number {
     font-size: 30px;
+  }
+  .logo img {
+    height: 25%;
+    width: 25%;
   }
   .mission .name {
     font-size: 2rem;
@@ -424,7 +442,9 @@ main {
 @media (max-width: 450px) {
   header {
     flex-direction: column;
+    padding-top: 20px;
   }
+
   header input {
     max-width: 500px;
   }
