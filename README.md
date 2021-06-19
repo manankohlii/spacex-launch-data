@@ -100,7 +100,7 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 ## 📌 Opensource Programs
 
-### This project is a part of following Open Source Program
+### This project is a part of the following Open Source Program(s)
 <br>
 
 <table style="width:80%;background-color:white;border-radius:30px;">
