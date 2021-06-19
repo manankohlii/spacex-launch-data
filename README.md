@@ -113,7 +113,8 @@ git push -u origin <your_branch_name>
   </tr>
 </table>
     <hr>
-## ✨Our valuable Contributors👩‍💻👨‍💻 :
+
+## ✨ Our valuable Contributors👩‍💻👨‍💻 :
 <a href="https://github.com/manankohlii/spacex-launch-data/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=manankohlii/spacex-launch-data" />
 </a>
