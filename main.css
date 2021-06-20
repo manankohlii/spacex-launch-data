@@ -24,10 +24,55 @@ header {
   align-items: center;
   padding: 10px 15px 15px;
 }
+
+/* Navbar */
 .logo img {
-  padding-top: 5px;
-  max-height: 85px;
+  padding-top: 0.2rem;
+  max-height: 5rem;
+  transition: transform 250ms;
 }
+.logo img:hover{
+  transform: scale(1.1);
+}
+.nav-link{
+  font-size: 1.1rem;
+  margin-right: 2.5rem;
+  font-weight: 500;
+  position: relative;
+}
+.nav-item a{
+  color: rgb(218, 216, 216);
+  text-decoration: none;
+  outline: none;
+}
+.nav-item a:hover{
+  color: #f3df27;
+}
+.nav-item a:focus{
+  color: rgb(255, 238, 7);
+}
+.nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #f50808;
+  color: transparent;
+  width: 0%;
+  content: '.';
+  height: 3px;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+.nav-link:hover::after{
+  transition: all 0.2s;
+}
+.navbar-toggler{
+  color: #ffffff;
+}
+/* Navbar */
 
 #particles-js {
   position: fixed;
@@ -39,7 +84,7 @@ header {
 header input {
   width: 100%;
   max-width: 350px;
-  padding: 10px 15px;
+  padding: 12px 15px;
   border: none;
   outline: none;
   background-color: rgba(255, 255, 255, 0.9);
@@ -58,73 +103,8 @@ main {
   padding: 14px 25px;
   text-align: center;
 }
-.container {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-.container .menu-icon {
-  position: absolute;
-  color: white;
-  font-size: 30px;
-  right: 22px;
-  top: 5px;
-  border: 0.3px solid #464646;
-  border-radius: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-right: -15px;
-  cursor: pointer;
-  z-index: 1;
-}
 
-.menu-container {
-  height: 0%;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.8);
-  overflow: hidden;
-  transition: 0.6s ease-in-out;
-}
 
-.menu-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.menu-content a {
-  padding: 16px;
-  text-decoration: none;
-  font-size: 18px;
-  color: white;
-  display: block;
-  font-family: sans-serif;
-  opacity: 0.8;
-  transition: 0.3s ease-in-out;
-}
-
-.menu-content a:hover {
-  background-color: #ffc31e;
-  color: black;
-  opacity: 1;
-  transition: 0.8s;
-}
-
-.menu-container .closebtn {
-  position: absolute;
-  top: 36px;
-  right: 48px;
-  font-size: 30px;
-  color: white;
-  z-index: 1;
-  cursor: pointer;
-}
 
 .mission_wrapper {
   display: flex;
