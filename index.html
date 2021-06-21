@@ -5,28 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpacexMK</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/fav.png" type="image/x-icon"> 
     <link rel="stylesheet" href="main.css"/>
-    
+
 </head>
 <body>
     <div id="particles-js"></div>
     <script type="text/javascript" src="js/particles.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg scrolling-navbar">
     <div class="container">
-        <span class="spa"></span>
-        <span class="logo"><a href="#"><img src="images/logoSpaceXMK.png"></a></span>
-        <span class="spa"></span>
-        <span class="menu-icon" onclick="openMenu()">&#9776;</span>
+      <!-- Brand -->
+      <span class="logo"><a href="#"><img src="images/logoSpaceXMK.png"></a></span>
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span>
+            <i class="fas fa-bars" style="color:rgb(255, 255, 255); font-size:1.5rem;"></i>
+        </span>
+      </button>
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- main -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Launches</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rockets</a>
+          </li>
+        </ul>
       </div>
-    <div class="menu-container" id="navbar">
-        <span class="closebtn" onclick="closeMenu()">&times;</span>
-        <div class="menu-content">
-          <b><a href="#">Launches</a></b>
-          <b><a href="#">Rockets</a></b>
-          <b><a href="#">Cores</a></b>
-        </div>
-      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
     <div class="app-wrap">
         <header>
             <input id="fnumber" type="text" autocomplete="off" class="search-box" placeholder="Enter mission number">
@@ -107,6 +127,11 @@
             <p class="copyright">&copy Copyright <script>document.write(new Date().getFullYear())</script> |❤️Manan Kohli</a></p>
     </footer>
     </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
