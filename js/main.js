@@ -69,3 +69,8 @@ const stopVideo = () => {
   
   document.querySelector('.modal__closebar')
     .addEventListener('click', toggleModal);
+
+    removeload=()=>{
+      var preloader=document.getElementById('preloading')
+      preloader.style.display="none";
+    }
