@@ -17,19 +17,18 @@ body {
   0%{
     opacity: 0%;
   }
-  50%{
-    opacity: 30%;
-  }
   100%{
     opacity: 100%;
   }
 }
 #preloading{
+  position: fixed;
   height: 100vh;
   width: 100%;
   background: black url('ll3.gif') no-repeat center;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
-  background-size: 40%;
+  background-size: 45%;
+  z-index: 9999;
 }
 .app-wrap {
   min-height: 100vh;
