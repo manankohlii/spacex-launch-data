@@ -8,7 +8,28 @@ body {
   font-family: "verdana", sans-serif;
   background: url("images/bg1.png") no-repeat center center/cover fixed;
 }
-
+.back{
+  padding: 0;
+  animation: anim 2s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes anim {
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+#preloading{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background: black url('ll3.gif') no-repeat center;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  background-size: 45%;
+  z-index: 9999;
+}
 .app-wrap {
   min-height: 100vh;
   background-image: linear-gradient(
