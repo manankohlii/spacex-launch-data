@@ -8,6 +8,19 @@ body {
   font-family: "verdana", sans-serif;
   background: url("images/bg1.png") no-repeat center center/cover fixed;
 }
+
+::-webkit-scrollbar
+{
+  width: 15px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#f1c36b,#ee955a, #f1c36b);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(#ff8633,#dd930b);
+}
+
 .back{
   padding: 0;
   animation: anim 2s;
