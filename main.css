@@ -32,7 +32,6 @@ body {
   z-index: 9999;
 }
 .app-wrap {
- 
   min-height: 100vh;
   background-image: linear-gradient(
     to bottom,
@@ -45,7 +44,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 120px 15px 15px;
+  padding: 120px 20px 20px;
 }
 
 /* Navbar */
