@@ -8,6 +8,7 @@ body {
   font-family: "verdana", sans-serif;
   background: url("images/bg1.png") no-repeat center center/cover fixed;
 }
+
 .back{
   padding: 0;
   animation: anim 2s;
@@ -31,6 +32,7 @@ body {
   z-index: 9999;
 }
 .app-wrap {
+ 
   min-height: 100vh;
   background-image: linear-gradient(
     to bottom,
@@ -47,23 +49,6 @@ header {
 }
 
 /* Navbar */
-.header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: 0.6s;
-  padding: 7px 100px;
-  z-index: 100000;
-  background: rgb(68, 68, 68);
-}
-.header .white{
-  padding: 5px 100px;
-  background: #fff;
-}
 .logo img {
   padding-top: 0.2rem;
   max-height: 5rem;
@@ -71,25 +56,6 @@ header {
 }
 .logo img:hover{
   transform: scale(1.1);
-}
-.header ul {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header ul li{
-  position: relative;
-  list-style: none;
-}
-.header ul li a{
-  position: relative;
-  margin: 0.15px;
-  text-decoration: none;
-  color: white;
-  letter-spacing: 2px;
-  font-weight: 500px;
-  transition: 0.6s;
 }
 .nav-link{
   font-size: 1.1rem;
@@ -126,7 +92,9 @@ header {
 .nav-link:hover::after{
   transition: all 0.2s;
 }
-
+.navbar-toggler{
+  color: #ffffff;
+}
 /* Navbar */
 
 #particles-js {
