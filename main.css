@@ -10,14 +10,14 @@ body {
 }
 ::-webkit-scrollbar
 {
-  width: 15px;
+  width: 11px;
 }
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(#f1c36b,#ee955a, #f1c36b);
+  background: linear-gradient(#faa303,#fa6603);
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background: linear-gradient(#ff8633,#dd930b);
+  background: linear-gradient(#ff6804,#fda501);
 }
 
 .back{
