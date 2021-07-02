@@ -176,6 +176,7 @@ main {
 }
 .detail_block1 {
   /* display: flex; */
+  position: relative;
   justify-content: center;
   align-items: center;
   border: 1px solid #ffca33;
@@ -200,9 +201,44 @@ main {
   color: #ffca33;
   font-size: calc(25px + 2vw);
   font-weight: 900;
+  margin: 30px 15px;
+  text-shadow: 2px 2px 10px #ffca33;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+.mission .name1 {
+  color: #ffca33;
+  font-size: calc(25px + 2vw);
+  font-weight: 900;
   margin: 30px 10px;
   text-shadow: 2px 2px 10px #ffca33;
   animation: glow 3s ease-in-out infinite alternate;
+}
+.boss{
+  background: url("images/bg1.png") no-repeat center center/cover fixed;
+  position: absolute;
+  animation: typew 1.5s steps(10) infinite alternate ;
+
+}
+@keyframes typew {
+  0%{
+    position: absolute;
+  right: 92px;
+  height: 90%;
+  width: 60%;
+  }
+  75%{
+    position: absolute;
+    height: 90%;
+    width: 0px;
+  right: 92px;
+  }
+  /* 100%{
+    position: absolute;
+    height: 90%;
+    width: 0px;
+  right: 19%;
+  } */
+  
 }
 .mission .anime span:nth-child(1) {
   position: absolute;
@@ -277,11 +313,11 @@ main {
 }
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #ff8633, 0 0 20px #ff8633, 0 0 30px #ff8633;
+    text-shadow: 0 0 06px #ff8633, 0 0 8px #ff8633, 0 0 10px #ff8633;
   }
 
   to {
-    text-shadow: 0 0 10px #ff8633, 0 0 20px #ff8633, 0 1 30px #ff8633;
+    text-shadow: 0 0 06px #ff8633, 0 0 8px #ff8633, 0 1 10px #ff8633;
   }
 }
 
