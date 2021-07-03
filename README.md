@@ -1,5 +1,5 @@
 # 🚀🚀🚀SpaceX Launch Data🚀🚀🚀
-Uses the freely available [SpaceX API](https://github.com/r-spacex/SpaceX-API) and basic HTML CSS and JS to give details of missions. The main aim of this project is to make [SpaceX](https://www.spacex.com/) related data easily available. <br>
+Uses the freely available [SpaceX API](https://github.com/r-spacex/SpaceX-API) and HTML CSS and JS to give details of missions. The main aim of this project is to make [SpaceX](https://www.spacex.com/) related data easily available. <br>
 
 [Launch SpaceX](https://launchspacex.netlify.app)❤️
 
