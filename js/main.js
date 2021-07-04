@@ -74,3 +74,6 @@ const stopVideo = () => {
       var preloader=document.getElementById('preloading')
       preloader.style.display="none";
     }
+myfunc=(togle)=>{
+togle.classList.toggle("change");
+}
