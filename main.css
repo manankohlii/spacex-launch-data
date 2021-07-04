@@ -564,3 +564,11 @@ footer {
     pointer-events: auto;
     opacity: 1;
 }
+
+@media ( min-width : 300px){
+  footer{          
+            height: 32vh;
+            
+         }
+
+}
