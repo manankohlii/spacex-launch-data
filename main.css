@@ -573,8 +573,8 @@ footer {
   margin: 0px 10px 0px;
   border-radius: 100%;
   border: 1px solid #bababa;
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -586,7 +586,7 @@ footer {
 
 .fab {
   color: #fff;
-  font-size: 16px;
+  font-size: 30px;
 }
 .copyright {
   font-size: 10px;
