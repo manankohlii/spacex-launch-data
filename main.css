@@ -579,10 +579,12 @@ footer {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  text-decoration: none;
 }
 .sm-button:hover {
-  background: linear-gradient(to right, #6500ff, #f3df27);
+  background: linear-gradient(to right,#ff8633, #ffbb00);
 }
+
 
 .fab {
   color: #fff;
