@@ -1,0 +1,73 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.scene i{
+    position: absolute;
+    top: -250px;
+    background: rgba(255, 255, 255, 0.5);
+    animation: animateStars linear infinite;
+}
+@keyframes  animateStars{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(200vh);
+    }
+}
+.scene
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+  display:flex;
+  justify-content: center;
+  align-items: center;  
+}
+.scene .rocket
+{
+    position: relative;
+    z-index: 100;
+    animation: animate 0.2s ease infinite;
+}
+@keyframes animate
+{
+    0%, 100%
+    {
+        transform: translateY(-2px);
+    }
+    50%
+    {
+    transform: translateY(2px);
+    }
+}
+.scene .rocket::before
+{
+content: '';
+position: absolute;
+bottom: -200px;
+left: 50%;
+transform: translateX(-50%);
+width: 10px;
+height: 200px;
+background: linear-gradient(#fdec00, transparent);
+
+}
+.scene .rocket::after
+{
+content: '';
+position: absolute;
+bottom: -200px;
+left: 50%;
+transform: translateX(-50%);
+width: 10px;
+height: 200px;
+background: linear-gradient(#17ce17, transparent);
+filter: blur(20px);
+}
+
