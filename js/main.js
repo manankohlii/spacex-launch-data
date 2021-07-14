@@ -116,4 +116,8 @@ function reset_animation() {
   el5.style.animation = 'none';
   el5.offsetHeight; /* trigger reflow */
   el5.style.animation = null;
+  var el6 = document.getElementById("anim_7");
+  el6.style.animation = 'none';
+  el6.offsetHeight; /* trigger reflow */
+  el6.style.animation = null;
 }

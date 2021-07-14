@@ -18,6 +18,7 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover{
   background: linear-gradient(#A2DBFA,#39A2DB);
+  overflow-y: hidden;
 }
 
 .back{
@@ -204,18 +205,20 @@ main {
 }
 .detail_block_c {
   /* display: flex; */
+  /*animation-fill-mode: both;*/
 
   justify-content: center;
   align-items: center;
   border: 0px solid #3EDBF0;
-  border-radius: 100px;
+  border-radius: 50px;
   background: none;
   padding: 10px 18px;
   font-size: 20px;
-  margin: 0 40px 0 40px;
+  margin: 10px 40px 10px 40px;
   color: #3EDBF0;
 }
 .patch_img{
+  align-items: center;
   justify-content: center;
   animation: moveLeft 5.5s forwards;
   -webkit-animation: moveLeft 5.5s forwards;
@@ -242,12 +245,6 @@ main {
     opacity: 100;
   }
 }
-#slider {
-
-    transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-}
-
 .slide-in {
 
     animation: fadeIn 5.5s forwards;
@@ -256,33 +253,34 @@ main {
 .slide-in2 {
 
     animation: fadeIn 5.5s forwards;
-    animation-delay: 0.5s ;
+    animation-delay: 0.1s ;
     -webkit-animation: fadeIn 5.5s forwards;
-    -webkit-animation-delay:0.5s;
+    -webkit-animation-delay:0.1s;
 }
 .slide-in3 {
   animation: fadeIn 5.5s forwards;
-  animation-delay: 0.5s ;
+  animation-delay: 0.1s ;
   -webkit-animation: fadeIn 5.5s forwards;
-  -webkit-animation-delay:0.5s;
+  -webkit-animation-delay:0.1s;
 }
 .slide-in4 {
   animation: fadeIn 5.5s forwards;
-  animation-delay: 1s ;
+  animation-delay: 0.1s ;
   -webkit-animation: fadeIn 5.5s forwards;
-  -webkit-animation-delay:1s;
+  -webkit-animation-delay:0.1s;
 }
 .slide-in5 {
   animation: fadeIn 5.5s forwards;
-  animation-delay: 1s ;
+  animation-delay: 0.1s ;
   -webkit-animation: fadeIn 5.5s forwards;
-  -webkit-animation-delay:1s;
+  -webkit-animation-delay:0.1s;
 }
 .slide-in6 {
+
   animation: fadeIn 5.5s forwards;
-  animation-delay: 1.5s ;
+  animation-delay: 0.1s ;
   -webkit-animation: fadeIn 5.5s forwards;
-  -webkit-animation-delay:1.5s;
+  -webkit-animation-delay:0.1s;
 }
 @keyframes fadiIn {
     from {
@@ -305,7 +303,10 @@ main {
     opacity: 100;
   }
 }
-
+.patch_img{
+  text-align: center;
+  justify-content: center;
+}
 
 .detail_block1 {
   /* display: flex; */
