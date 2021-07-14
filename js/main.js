@@ -19,6 +19,18 @@ fetch(url+fnum).then(function(response){
     document.getElementById("mission_patch").style.display = "block";
     document.getElementById("mission_patch").src=obj.links.mission_patch_small;
     document.getElementById("artlink").href=obj.links.article_link;
+    document.getElementById("mdetail").textContent=obj.details;
+    if (obj.launch_success === true) {
+      document.getElementById("result").textContent="Mission Successful";
+
+    }
+    else if (obj.launch_success === false) {
+      document.getElementById("result").textContent="Mission Failure"
+
+    }
+
+
+
     document.getElementById("vidframe").src=`https://www.youtube.com/embed/${obj.links.youtube_id}`;
 }).catch(function(error){
     console.error('wrong');
@@ -58,15 +70,15 @@ const stopVideo = () => {
     let iframe_tag = video__container.querySelector( 'iframe');
     if ( iframe_tag) {
         let iframeSrc = iframe_tag.src;
-        iframe_tag.src = iframeSrc; 
+        iframe_tag.src = iframeSrc;
     }
 }
   document.querySelector('#vidBtn')
     .addEventListener('click', toggleModal);
-  
+
   document.querySelector('.overlay')
     .addEventListener('click', toggleModal);
-  
+
   document.querySelector('.modal__closebar')
     .addEventListener('click', toggleModal);
 

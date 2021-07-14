@@ -10,14 +10,14 @@ body {
 }
 ::-webkit-scrollbar
 {
-  width: 11px;
+  width: 5px;
 }
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(#faa303,#fa6603);
+  background: linear-gradient(#A2DBFA,#39A2DB);
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background: linear-gradient(#ff6804,#fda501);
+  background: linear-gradient(#A2DBFA,#39A2DB);
 }
 
 .back{
@@ -79,7 +79,7 @@ header {
   outline: none;
 }
 .nav-item a:hover{
-  color: #f3df27;
+  color: #FF94CC;
 }
 .nav-item a:focus{
   color: rgb(255, 238, 7);
@@ -90,7 +90,7 @@ header {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: #f50808;
+  background-color: #39A2DB;
   color: transparent;
   width: 0%;
   content: '.';
@@ -109,7 +109,7 @@ header {
 .bar1, .bar2, .bar3 {
   width: 33px;
   height: 2px;
-  border: 2.5px solid white;
+  border: 2.5px solid #3EDBF0;
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
   margin: 5px 0;
@@ -146,7 +146,7 @@ header input {
   padding: 12px 15px;
   border: none;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 12px;
   color: #313131;
   font-size: 20px;
@@ -155,7 +155,7 @@ header input {
 }
 
 header input:focus {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.9) ;
 }
 
 main {
@@ -171,7 +171,7 @@ main {
   align-items: center;
   min-width: 50vw;
   min-height: 60vh;
-  border: 3px solid #ffca33;
+  border: 3px solid #3EDBF0;
   border-radius: 20px;
 }
 
@@ -188,28 +188,137 @@ main {
 .mission {
   margin-bottom: 20px;
 }
+
+
 .detail_block {
   /* display: flex; */
   justify-content: center;
   align-items: center;
-  border: 1px solid #ffca33;
+  border: 1px solid #3EDBF0;
   border-radius: 10px;
   background: none;
   padding: 10px 13px;
   font-size: 20px;
   margin: 10px;
-  color: #ffca33;
+  color: #3EDBF0;
 }
+.detail_block_c {
+  /* display: flex; */
+
+  justify-content: center;
+  align-items: center;
+  border: 0px solid #3EDBF0;
+  border-radius: 100px;
+  background: none;
+  padding: 10px 18px;
+  font-size: 20px;
+  margin: 0 40px 0 40px;
+  color: #3EDBF0;
+}
+.patch_img{
+  justify-content: center;
+  animation: moveLeft 5.5s forwards;
+  -webkit-animation: moveLeft 5.5s forwards;
+}
+@keyframes moveLeft {
+
+    from {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0px);
+      opacity: 100;
+    }
+
+}
+@-webkit-keyframes moveLeft {
+  from {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+      transform: translateX(0px);
+    opacity: 100;
+  }
+}
+#slider {
+
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+.slide-in {
+
+    animation: fadeIn 5.5s forwards;
+    -webkit-animation: fadeIn 5.5s forwards;
+}
+.slide-in2 {
+
+    animation: fadeIn 5.5s forwards;
+    animation-delay: 0.5s ;
+    -webkit-animation: fadeIn 5.5s forwards;
+    -webkit-animation-delay:0.5s;
+}
+.slide-in3 {
+  animation: fadeIn 5.5s forwards;
+  animation-delay: 0.5s ;
+  -webkit-animation: fadeIn 5.5s forwards;
+  -webkit-animation-delay:0.5s;
+}
+.slide-in4 {
+  animation: fadeIn 5.5s forwards;
+  animation-delay: 1s ;
+  -webkit-animation: fadeIn 5.5s forwards;
+  -webkit-animation-delay:1s;
+}
+.slide-in5 {
+  animation: fadeIn 5.5s forwards;
+  animation-delay: 1s ;
+  -webkit-animation: fadeIn 5.5s forwards;
+  -webkit-animation-delay:1s;
+}
+.slide-in6 {
+  animation: fadeIn 5.5s forwards;
+  animation-delay: 1.5s ;
+  -webkit-animation: fadeIn 5.5s forwards;
+  -webkit-animation-delay:1.5s;
+}
+@keyframes fadiIn {
+    from {
+      transform: translateX(-400px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0px);
+      opacity: 100;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    transform: translateX(-400px);
+    opacity: 0;
+  }
+  to {
+      transform: translateX(0px);
+    opacity: 100;
+  }
+}
+.col_class1{
+
+}
+
 .detail_block1 {
   /* display: flex; */
   position: relative;
   justify-content: center;
   align-items: center;
-  border: 1px solid #ffca33;
+  border: 1px solid #3EDBF0;
   background: none;
   padding: 10px 13px;
   font-size: 20px;
-  color: #ffca33;
+  color: #3EDBF0;
 }
 
 .label {
@@ -224,19 +333,19 @@ main {
   margin-top: 20px;
 }
 .mission .name {
-  color: #ffca33;
+  color: #04009A;
   font-size: calc(25px + 2vw);
   font-weight: 900;
   margin: 30px 15px;
-  text-shadow: 2px 2px 10px #ffca33;
+  text-shadow: 2px 2px 10px #ffffff;
   animation: glow 3s ease-in-out infinite alternate;
 }
 .mission .name1 {
-  color: #ffca33;
+  color: #BEAEE2;
   font-size: calc(25px + 2vw);
   font-weight: 900;
   margin: 30px 10px;
-  text-shadow: 2px 2px 10px #ffca33;
+  text-shadow: 2px 2px 10px #BEAEE2;
   animation: glow 3s ease-in-out infinite alternate;
 }
 .boss{
@@ -264,7 +373,7 @@ main {
     width: 0px;
   right: 19%;
   } */
-  
+
 }
 .mission .anime span:nth-child(1) {
   position: absolute;
@@ -272,7 +381,7 @@ main {
   height: 4px;
   top: 0px;
   right: 2vw;
-  background: linear-gradient(to Right, transparent, rgb(252, 182, 102));
+  background: linear-gradient(to Right, transparent, rgb(251 ,	122	, 252));
   animation: border_anime 2s linear infinite;
 }
 .mission .anime span:nth-child(2) {
@@ -281,7 +390,7 @@ main {
   height: 100%;
   top: 9px;
   right: 0px;
-  background: linear-gradient(to bottom, transparent, rgb(250, 228, 180));
+  background: linear-gradient(to bottom, transparent, rgb(255 , 148	, 204));
   animation: border_anime2 2s linear infinite;
   animation-delay: 1s;
 }
@@ -291,7 +400,7 @@ main {
   height: 4px;
   top: 98%;
   right: 2px;
-  background: linear-gradient(to Left, transparent, rgb(250, 228, 180));
+  background: linear-gradient(to Left, transparent, rgb(251 ,	122	, 252));
   animation: border_anime3 2s linear infinite;
 }
 .mission .anime span:nth-child(4) {
@@ -300,7 +409,7 @@ main {
   height: 100%;
   top: 9px;
   right: 99.4%;
-  background: linear-gradient(to top, transparent, rgb(250, 228, 180));
+  background: linear-gradient(to top, transparent, rgb(255 , 148	, 204));
   animation: border_anime4 2s linear infinite;
   animation-delay: 1s;
 }
@@ -339,11 +448,11 @@ main {
 }
 @keyframes glow {
   from {
-    text-shadow: 0 0 06px #ff8633, 0 0 8px #ff8633, 0 0 10px #ff8633;
+    text-shadow: 0 0 06px #88FFF7, 0 0 8px #88FFF7, 0 0 10px #88FFF7;
   }
 
   to {
-    text-shadow: 0 0 06px #ff8633, 0 0 8px #ff8633, 0 1 10px #ff8633;
+    text-shadow: 0 0 06px #88FFF7, 0 0 8px #88FFF7, 0 1 10px #88FFF7;
   }
 }
 
@@ -375,13 +484,13 @@ main {
 }
 
 .btn {
-  border: 2px solid #ffca33;
+  border: 2px solid #9FD8DF;
   background: none;
   padding: 10px 20px;
   font-size: 20px;
   margin: 10px;
   /* margin-left: 40px; */
-  color: #ffca33;
+  color: #9FD8DF;
   transition: 0.8s;
   position: relative;
   border-radius: 6px;
@@ -395,7 +504,7 @@ main {
   right: 0;
   width: 0%;
   height: 100%;
-  background: #ffbb00;
+  background: #19D3DA;
   transition: 0.3s linear;
   z-index: -1;
 }
@@ -446,8 +555,8 @@ main {
   position: relative;
   width: calc(100px + 55vw);
   margin: 5px;
-  border: 4px solid #ffca33;
-  box-shadow: -1px 2px 7px #f5de69b5;
+  border: 4px solid #7868E6;
+  box-shadow: -1px 2px 7px #B8B5FF;
   height: auto;
 }
 
@@ -558,15 +667,15 @@ main {
 
 /*Footer*/
 footer {
-  background-color: #000000;
+  background-color: #ffffff;
   animation: glow 3s ease-in-out infinite alternate;
-  background: linear-gradient(90deg, #ff8633 -40%, black 50%, #ff8633 140%);
+  background: linear-gradient(90deg, #5C33F6 -40%, black 50%, #5C33F6 140%);
   text-align: center;
   padding-bottom: 15px;
 }
 .sm-handle {
   display: flex;
-  padding-top: 2rem;
+  padding: 1rem 4rem 0 4rem;
   justify-content: center;
 }
 .sm-button {
@@ -582,7 +691,7 @@ footer {
   text-decoration: none;
 }
 .sm-button:hover {
-  background: linear-gradient(to right,#ff8633, #ffbb00);
+  background: linear-gradient(to right,#39A2DB, #B5EAEA);
 }
 
 
@@ -595,12 +704,13 @@ footer {
   word-spacing: 2px;
   color: white;
   letter-spacing: 1.5px;
+  padding-bottom: 0;
 }
 
 
 .to-top
 {
-    background-color: goldenrod;
+    background-color: #3EDBF0;
     position: fixed;
     bottom: 16px;
     right: 32px;
@@ -618,7 +728,7 @@ footer {
     transition: all .4s;
 }
 .to-top:hover{
-  color: goldenrod;
+  color: #3EDBF0;
   background-color: lightgray;
 }
 
