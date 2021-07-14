@@ -149,6 +149,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     <script src="js/vanilla-tilt.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+     function addDarkmodeWidget() {
+        new Darkmode().showWidget(); }
+     window.addEventListener('load', addDarkmodeWidget);
+    </script>
     <script>
         VanillaTilt.init(document.querySelectorAll(".mission_patch"), {
 		max: 25,
