@@ -89,3 +89,31 @@ const stopVideo = () => {
 myfunc=(togle)=>{
 togle.classList.toggle("change");
 }
+
+//restarting animation after search
+function reset_animation() {
+  var el = document.getElementById("anim_1");
+  el.style.animation = 'none';
+  el.offsetHeight; /* trigger reflow */
+  el.style.animation = null;
+  var el1 = document.getElementById("anim_2");
+  el1.style.animation = 'none';
+  el1.offsetHeight; /* trigger reflow */
+  el1.style.animation = null;
+  var el2 = document.getElementById("anim_3");
+  el2.style.animation = 'none';
+  el2.offsetHeight; /* trigger reflow */
+  el2.style.animation = null;
+  var el3 = document.getElementById("anim_4");
+  el3.style.animation = 'none';
+  el3.offsetHeight; /* trigger reflow */
+  el3.style.animation = null;
+  var el4 = document.getElementById("anim_5");
+  el4.style.animation = 'none';
+  el4.offsetHeight; /* trigger reflow */
+  el4.style.animation = null;
+  var el5 = document.getElementById("anim_6");
+  el5.style.animation = 'none';
+  el5.offsetHeight; /* trigger reflow */
+  el5.style.animation = null;
+}

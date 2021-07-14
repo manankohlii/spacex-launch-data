@@ -56,7 +56,7 @@
     <div class="app-wrap">
         <header>
             <input id="fnumber" type="text" autocomplete="off" class="search-box" placeholder="Enter mission number">
-            <button onclick="fn()" class="btn" id="sbtn">Search</button>
+            <button onclick="fn();reset_animation();" type="submit" class="btn" id="sbtn">Search</button>
         </header>
     <main>
         <div class="mission_wrapper">
@@ -76,42 +76,30 @@
             <div class="row ">
               <div class="col-lg col_class1">
 
-                  <div  class="detail_block_c slide-in">
+                  <div  id="anim_1" class="detail_block_c slide-in">
                       <div class="label">Mission   No  </div>
                       <div id="number" class="number">1</div>
                   </div>
-                  <div class="detail_block_c slide-in2 ">
+                  <div id="anim_2"class="detail_block_c slide-in2 ">
                       <div class="label">Launch   Year </div>
                       <div id="year" class="year">2006</div>
                   </div>
-
-
-                    <div class="detail_block_c slide-in3">
+                    <div id="anim_3" class="detail_block_c slide-in3">
                         <div class="label">  Rocket Name :</div>
                         <div id="rname" class="rname">Falcon 1</div>
                     </div>
-
-
-                    <div class="detail_block_c slide-in4">
+                    <div id="anim_4"class="detail_block_c slide-in4">
                         <div class="label">Launch Site :</div>
                         <div id="lsite" class="rtype">Kwajalein Atoll Omelek Island</div>
                     </div>
-
-
-                    <div class="detail_block_c slide-in5">
+                    <div id="anim_5" class="detail_block_c slide-in5">
                         <div class="label">  Result :</div>
                         <div id="result" class="rname">Mission Failed</div>
                     </div>
-
-
-                    <div class="detail_block_c slide-in6">
+                    <div id="anim_6" class="detail_block_c slide-in6">
                         <div class="label">  Details :</div>
                         <div id="mdetail" class="rname">Merlin engine failure</div>
                     </div>
-
-
-
-
             </div>
               <div class="col-lg patch_img">
                   <img src = "https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png" id="mission_patch" class="mission_patch patch_img" alt = "mission patch" height=200 width=200 align=right>
