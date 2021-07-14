@@ -15,11 +15,12 @@ fetch(url+fnum).then(function(response){
     document.getElementById("year").textContent=obj.launch_year;
     document.getElementById("mname").textContent=obj.mission_name;
     document.getElementById("rname").textContent= obj.rocket.rocket_name ;
-    document.getElementById("lsite").textContent=obj.launch_site.site_name_long;
+    document.getElementById("lsite").textContent=obj.launch_site.site_name;
     document.getElementById("mission_patch").style.display = "block";
     document.getElementById("mission_patch").src=obj.links.mission_patch_small;
     document.getElementById("artlink").href=obj.links.article_link;
-    document.getElementById("mdetail").textContent=obj.details;
+
+    // document.getElementById("lTime").textContent=obj.launch_date_local;
     if (obj.launch_success === true) {
       document.getElementById("result").textContent="Mission Successful";
 
@@ -28,8 +29,12 @@ fetch(url+fnum).then(function(response){
       document.getElementById("result").textContent="Mission Failure"
 
     }
-
-
+    if (obj.details===null) {
+      document.getElementById("mdetail").textContent="NA";
+    }
+    else {
+      document.getElementById("mdetail").textContent=obj.details;
+    }
 
     document.getElementById("vidframe").src=`https://www.youtube.com/embed/${obj.links.youtube_id}`;
 }).catch(function(error){
@@ -120,4 +125,8 @@ function reset_animation() {
   el6.style.animation = 'none';
   el6.offsetHeight; /* trigger reflow */
   el6.style.animation = null;
+  var el7 = document.getElementById("typedetails");
+  el7.style.animation = 'none';
+  el7.offsetHeight; /* trigger reflow */
+  el7.style.animation = null;
 }

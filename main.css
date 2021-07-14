@@ -160,6 +160,7 @@ header input:focus {
 }
 
 main {
+
   padding: 14px 25px;
   text-align: center;
 }
@@ -190,7 +191,11 @@ main {
   margin-bottom: 20px;
 }
 
-
+.row_placement{
+  margin-right: auto;
+  margin-left: 0;
+  padding-left: 0;
+}
 .detail_block {
   /* display: flex; */
   justify-content: center;
@@ -199,7 +204,7 @@ main {
   border-radius: 10px;
   background: none;
   padding: 10px 13px;
-  font-size: 20px;
+  font-size: 10px 40px 10px 40px;
   margin: 10px;
   color: #3EDBF0;
 }
@@ -207,10 +212,10 @@ main {
   /* display: flex; */
   /*animation-fill-mode: both;*/
 
-  justify-content: center;
+  justify-content: space-around ;
   align-items: center;
-  border: 0px solid #3EDBF0;
-  border-radius: 50px;
+  border: 1px solid #3EDBF0;
+  border-radius: 10px;
   background: none;
   padding: 10px 18px;
   font-size: 20px;
@@ -218,6 +223,7 @@ main {
   color: #3EDBF0;
 }
 .patch_img{
+
   align-items: center;
   justify-content: center;
   animation: moveLeft 5.5s forwards;
@@ -307,7 +313,33 @@ main {
   text-align: center;
   justify-content: center;
 }
+.patch_ps{
+  font-size: 20px;
+  padding-left: 60px;
+}
+/*typewriting effect*/
+.details{
+  margin-top: 20px;
+  white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+}
 
+
+/* The typing effect */
+@keyframes typewriter {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinkTextCursor {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+/* *********************************************** */
 .detail_block1 {
   /* display: flex; */
   position: relative;
@@ -666,12 +698,14 @@ main {
 
 /*Footer*/
 footer {
+
   background-color: #ffffff;
   animation: glow 3s ease-in-out infinite alternate;
   background: linear-gradient(90deg, #5C33F6 -40%, black 50%, #5C33F6 140%);
   text-align: center;
   padding-bottom: 15px;
 }
+
 .sm-handle {
   display: flex;
   padding: 1rem 4rem 0 4rem;
