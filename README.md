@@ -1,4 +1,4 @@
-<img src="https://github.com/Nikolatesla2001/spacex-launch-data/blob/master/photo-1541185933-ef5d8ed016c2.jpg" width="50">
+<img src="https://github.com/Nikolatesla2001/spacex-launch-data/blob/master/photo-1541185933-ef5d8ed016c2.jpg">
 Uses the freely available [SpaceX API](https://github.com/r-spacex/SpaceX-API) and HTML CSS and JS to give details of missions. The main aim of this project is to make [SpaceX](https://www.spacex.com/) related data easily available. <br>
 
 [Launch SpaceX](https://launchspacex.netlify.app)❤️
