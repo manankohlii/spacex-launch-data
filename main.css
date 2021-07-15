@@ -18,7 +18,8 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover{
   background: linear-gradient(#A2DBFA,#39A2DB);
-
+ overflow-x: hidden;
+ overflow-y: hidden;
 }
 
 .back{
@@ -160,14 +161,22 @@ header input:focus {
 }
 
 main {
-
+  position: relative;
+  min-height: 100vh;
   padding: 14px 25px;
   text-align: center;
 }
+@media (max-width:1315) {
+  main{
+    position: static;
+    min-height: 0
+  }
 
+}
 
 
 .mission_wrapper {
+
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -306,6 +315,10 @@ main {
     opacity: 100;
   }
 }
+#mission_patch{
+  height: 250px;
+  width: 250px;
+}
 .patch_img{
   text-align: center;
   justify-content: center;
@@ -318,7 +331,20 @@ main {
 @media (max-width:1300px) {
   .img-pos{
     padding: 0;
-    margin-left: 150px;
+    margin-left: 20px;
+  }
+
+}
+@media (max-width:1315px) {
+  #mission_patch{
+    height: 180px;
+    width:180px;
+  }
+}
+@media (max=width:670) {
+  #mission_patch{
+    height: 125px;
+    width:125px;
   }
 }
 .patch_ps{
@@ -708,13 +734,23 @@ main {
 
 /*Footer*/
 footer {
-
+  position: absolute;
+    bottom: 0;
+    width: 100%;
   background-color: #ffffff;
   animation: glow 3s ease-in-out infinite alternate;
   background: linear-gradient(90deg, #5C33F6 -40%, black 50%, #5C33F6 140%);
   text-align: center;
   padding-bottom: 15px;
 
+}
+@media (max-width:1315px) {
+  footer{
+    position: static;
+    bottom: auto;
+    width: auto;
+
+  }
 }
 
 .sm-handle {
