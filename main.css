@@ -64,7 +64,6 @@ header {
 
 .container{
   list-style-type: none;
-  margin-top: -10px;
   padding: 0;
   border-radius: 40px;
   overflow: hidden;
@@ -75,13 +74,16 @@ header {
   .container{
       position: fixed;
       width: 100%;
-      padding: 5rem 1rem 0rem;
+      padding: 5rem 0.5rem 0rem;
       transition: .3s;
+     
   }
   .app-wrap{
-    padding: 65px 30px;
+    padding: 74px 3px;
+    
   }
 }
+
 
 .logo img {
   padding-top: 0.2rem;
