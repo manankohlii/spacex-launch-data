@@ -166,6 +166,7 @@ main {
   padding: 14px 25px;
   text-align: center;
 }
+/* changing main's position when screen size reduces */
 @media (max-width:1315) {
   main{
     position: static;
@@ -214,6 +215,7 @@ main {
   margin: 10px;
   color: #3EDBF0;
 }
+
 .detail_block_c {
   /* display: flex; */
   /*animation-fill-mode: both;*/
@@ -228,6 +230,7 @@ main {
   margin: 10px 40px 10px 40px;
   color: #3EDBF0;
 }
+/* animation for mission patch */
 .patch_img{
 
   align-items: center;
@@ -257,6 +260,8 @@ main {
     opacity: 100;
   }
 }
+/* **************************************************************************** */
+/* animation for information blocks */
 .slide-in {
 
     animation: fadeIn 5.5s forwards;
@@ -315,6 +320,8 @@ main {
     opacity: 100;
   }
 }
+/* ***************************************************************** */
+/* ******************* resizing patch when screen size reduces******************************************* */
 #mission_patch{
   height: 250px;
   width: 250px;
@@ -351,6 +358,7 @@ main {
   font-size: 20px;
   padding-left: 60px;
 }
+/* ******************************************************** */
 /*typewriting effect*/
 .details{
   margin-top: 20px;
@@ -744,6 +752,7 @@ footer {
   padding-bottom: 15px;
 
 }
+/* fixing foooter to bottom */
 @media (max-width:1315px) {
   footer{
     position: static;
@@ -752,7 +761,7 @@ footer {
 
   }
 }
-
+/* **************************************************** */
 .sm-handle {
   display: flex;
   padding: 1rem 4rem 0 4rem;

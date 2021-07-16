@@ -20,21 +20,21 @@ fetch(url+fnum).then(function(response){
     document.getElementById("mission_patch").src=obj.links.mission_patch_small;
     document.getElementById("artlink").href=obj.links.article_link;
 
-    // document.getElementById("lTime").textContent=obj.launch_date_local;
+    // getting mission outcome and details
     if (obj.launch_success === true) {
-      document.getElementById("result").textContent="Mission Successful";
+       document.getElementById("result").textContent="Mission Successful";
 
-    }
-    else if (obj.launch_success === false) {
-      document.getElementById("result").textContent="Mission Failure"
+     }
+     else if (obj.launch_success === false) {
+       document.getElementById("result").textContent="Mission Failure"
 
-    }
-    if (obj.details===null) {
-      document.getElementById("mdetail").textContent="NA";
-    }
-    else {
-      document.getElementById("mdetail").textContent=obj.details;
-    }
+     }
+     if (obj.details===null) {
+       document.getElementById("mdetail").textContent="NA";
+     }
+     else {
+       document.getElementById("mdetail").textContent=obj.details;
+     }
 
     document.getElementById("vidframe").src=`https://www.youtube.com/embed/${obj.links.youtube_id}`;
 }).catch(function(error){
@@ -48,6 +48,8 @@ fetch(url+fnum).then(function(response){
     document.getElementById("mission_patch").style.display = "none";
     document.getElementById("artlink").href=obj.links.article_link;
     document.getElementById("vidframe").src=`https://www.youtube.com/embed/${obj.links.youtube_id}`;
+    document.getElementById("result").textContent="NA";
+    document.getElementById("mdetail").textContent="NA";
     console.error(error);
 });
 }
@@ -95,7 +97,7 @@ myfunc=(togle)=>{
 togle.classList.toggle("change");
 }
 
-//restarting animation after search
+//restarting animation after a number is entered
 function reset_animation() {
   var el = document.getElementById("anim_1");
   el.style.animation = 'none';
