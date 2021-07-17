@@ -18,7 +18,7 @@
     <div id="preloading">
     </div>
     <main class = "back">
-    
+
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg scrolling-navbar">
@@ -56,7 +56,7 @@
     <div class="app-wrap">
         <header>
             <input id="fnumber" type="text" autocomplete="off" class="search-box" placeholder="Enter mission number">
-            <button onclick="fn()" class="btn" id="sbtn">Search</button>
+            <button onclick="fn();reset_animation();" type="submit" class="btn" id="sbtn">Search</button>
         </header>
     <main>
         <div class="mission_wrapper">
@@ -73,29 +73,72 @@
                      <div class="name">👨‍🚀</div>
                 </div>
             </div>
-            <img src = "https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png" id="mission_patch" class="mission_patch" alt = "mission patch" height=200 width=200 align=right>
+            <div class="container-fluid">
+            <div class="row ">
+              <div class="col-9" >
+                <div class="container">
+                <div class="row">
+                  <div class="col">
+                  <div  id="anim_1" class="detail_block_c slide-in">
+                      <div class="label">Mission   No  </div>
+                      <div id="number" class="number">1</div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div id="anim_2"class="detail_block_c slide-in2 ">
+                      <div class="label">Launch   Year </div>
+                      <div id="year" class="year">2006</div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div id="anim_3" class="detail_block_c slide-in3">
+                        <div class="label">  Rocket Name :</div>
+                        <div id="rname" class="rname">Falcon 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row ">
+                  <div class="col">
+                    <div id="anim_4"class="detail_block_c slide-in4">
+                        <div class="label">Launch Site :</div>
+                        <div id="lsite" class="rtype">Kwajalein Atoll Omelek Island</div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div id="anim_5" class="detail_block_c slide-in5">
+                        <div class="label">  Result :</div>
+                        <div id="result" class="rname">Mission Failed</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row ">
+                  <div class="col">
+                    <div id="anim_6" class="detail_block_c slide-in6">
+                        <div class="label">  Details :</div>
+                        <div id="mdetail" class="rname"><p id="typedetails" class="details"> Merlin engine failure </p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div id="anim_7"  class="col-3 patch_img ">
+                              <h4 style="color:white">Mission patch :</h4>
+                              <div class="img-pos">
+                  <img src = "https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png" id="mission_patch" class="mission_patch" alt = "mission patch"  align=right>
+                    </div>
+              </div>
+            </div>
+          </div>
             <div class="lnumber detail_row">
-                <div class="detail_block">
-                    <div class="label">Mission No : </div>
-                    <div id="number" class="number">1</div>
-                </div>
-                <div class="detail_block ">
-                    <div class="label">Launch Year :</div>
-                    <div id="year" class="year">2006</div>
-                </div>
             </div>
-            <div class="vehicle detail_row">
-                <div class="detail_block">
-                    <div class="label">  Rocket Name :</div>
-                    <div id="rname" class="rname">Falcon 1</div>
-                </div>
-            </div>
-            <div class="launch_site detail_row">
-                <div class="detail_block">
-                    <div class="label">Launch Site :</div>
-                    <div id="lsite" class="rtype">Kwajalein Atoll Omelek Island</div>
-                </div>
-            </div>
+              <div class="lnumber detail_row">
+          </div>
+
             <div class="links">
                     <a id="artlink" class="artlink" target="_blank" href="https://www.space.com/2196-spacex-inaugural-falcon-1-rocket-lost-launch.html">
                         <button class="btn youBtn">View Full Article</button>
@@ -130,17 +173,18 @@
             </a>
             </div>
             <br>
-            <p class="copyright">&copy Copyright <script>document.write(new Date().getFullYear())</script> |❤️Manan Kohli</a></p>
+            <p class="copyright">&copy Copyright <script>document.write(new Date().getFullYear())</script> | ❤️Manan Kohli</a></p>
+
     </footer>
     <a href="#" class="to-top">
         <i class="fa fa-arrow-up" style="font-size:36px"></i>
     </a>
-    
+
     <!---javascript links-->
     <script src="./js/scroll.js"></script>
 
     </div>
-  
+
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
