@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,153 +9,170 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
-    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="main.css" />
 
 </head>
+
 <body onload="removeload()">
     <div id="particles-js"></div>
     <script type="text/javascript" src="js/particles.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
     <div id="preloading">
     </div>
-    <main class = "back">
-    
+    <main class="back">
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg scrolling-navbar">
-    <div class="container">
-      <!-- Brand -->
-      <span class="logo"><a href="#"><img src="images/logoSpaceXMK.png"></a></span>
-      <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation" onclick="myfunc(this)">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg scrolling-navbar">
+            <div class="container">
+                <!-- Brand -->
+                <span class="logo"><a href="#" onclick="playaudio3()"><img src="images/logoSpaceXMK.png"></a></span>
+                <!-- Collapse -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="myfunc(this)">
         <div class="cont1" >
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
       </button>
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- main -->
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Launches</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Cores</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Rockets</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar -->
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- main -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" onclick="playaudio3()" href="index.html">Launches</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="playaudio3()" href="#">Cores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="playaudio3()" href="#">Rockets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
 
-    <div class="app-wrap">
-        <header>
-            <input id="fnumber" type="text" autocomplete="off" class="search-box" placeholder="Enter mission number">
-            <button onclick="fn()" class="btn" id="sbtn">Search</button>
-        </header>
-    <main>
-        <div class="mission_wrapper">
-            <div class="mission">
-                <div class="detail_block1 detail_row">
-                    <div class="anime">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        <div class="app-wrap">
+            <header>
+                <input id="fnumber" type="text" autocomplete="off" class="search-box" placeholder="Enter mission number">
+                <button onclick="fn()" class="btn" id="sbtn">Search</button>
+            </header>
+            <main>
+                <div class="mission_wrapper">
+                    <div class="mission">
+                        <div class="detail_block1 detail_row">
+                            <div class="anime">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="name">👨‍🚀</div>
+                            <div id="mname" class="name">Falcon Sat</div>
+                            <div class="name">👨‍🚀</div>
+                        </div>
                     </div>
-                     <div class="name">👨‍🚀</div>
-                     <div id="mname" class="name">Falcon Sat</div>
-                     <div class="name">👨‍🚀</div>
+                    <img src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png" id="mission_patch" class="mission_patch" alt="mission patch" height=200 width=200 align=right>
+                    <div class="lnumber detail_row">
+                        <div class="detail_block">
+                            <div class="label">Mission No : </div>
+                            <div id="number" class="number">1</div>
+                        </div>
+                        <div class="detail_block ">
+                            <div class="label">Launch Year :</div>
+                            <div id="year" class="year">2006</div>
+                        </div>
+                    </div>
+                    <div class="vehicle detail_row">
+                        <div class="detail_block">
+                            <div class="label"> Rocket Name :</div>
+                            <div id="rname" class="rname">Falcon 1</div>
+                        </div>
+                    </div>
+                    <div class="launch_site detail_row">
+                        <div class="detail_block">
+                            <div class="label">Launch Site :</div>
+                            <div id="lsite" class="rtype">Kwajalein Atoll Omelek Island</div>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <a id="artlink" class="artlink" target="_blank" href="https://www.space.com/2196-spacex-inaugural-falcon-1-rocket-lost-launch.html">
+                            <button class="btn youBtn" onclick="playaudio()">View Full Article</button>
+                        </a>
+                        <button id="vidBtn" onclick="playaudio()" class="btn youBtn">Watch Launch </button>
+                        </button>
+                    </div>
+                </div>
+                <div class="overlay overlay__hidden"></div>
+            </main>
+            <div class="modal modal__hidden">
+                <div class="modal__contents">
+                    <div class="modal__closebar">
+                        <i class="far fa-times-circle"></i>
+                    </div>
+                    <div class="video__container">
+                        <iframe id="vidframe" src="https://www.youtube.com/embed/0a_00nJ_Y88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
-            <img src = "https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png" id="mission_patch" class="mission_patch" alt = "mission patch" height=200 width=200 align=right>
-            <div class="lnumber detail_row">
-                <div class="detail_block">
-                    <div class="label">Mission No : </div>
-                    <div id="number" class="number">1</div>
-                </div>
-                <div class="detail_block ">
-                    <div class="label">Launch Year :</div>
-                    <div id="year" class="year">2006</div>
-                </div>
-            </div>
-            <div class="vehicle detail_row">
-                <div class="detail_block">
-                    <div class="label">  Rocket Name :</div>
-                    <div id="rname" class="rname">Falcon 1</div>
-                </div>
-            </div>
-            <div class="launch_site detail_row">
-                <div class="detail_block">
-                    <div class="label">Launch Site :</div>
-                    <div id="lsite" class="rtype">Kwajalein Atoll Omelek Island</div>
-                </div>
-            </div>
-            <div class="links">
-                    <a id="artlink" class="artlink" target="_blank" href="https://www.space.com/2196-spacex-inaugural-falcon-1-rocket-lost-launch.html">
-                        <button class="btn youBtn">View Full Article</button>
+            <footer>
+                <div class="sm-handle">
+                    <a onclick="playaudio()" href="https://linkedin.com/in/manan-kohli" class="sm-button" target="_blank">
+
+                        <i class="fab fa-linkedin">	</i>
                     </a>
-                    <button id="vidBtn" class="btn youBtn">Watch Launch </button>
-                </button>
-            </div>
-       </div>
-       <div class="overlay overlay__hidden"></div>
-    </main>
-    <div class="modal modal__hidden">
-        <div class="modal__contents">
-          <div class="modal__closebar">
-            <i class="far fa-times-circle"></i>
-          </div>
-          <div class="video__container">
-              <iframe id="vidframe" src="https://www.youtube.com/embed/0a_00nJ_Y88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+                    <a onclick="playaudio()" href="https://github.com/manankohlii" class="sm-button" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a onclick="playaudio()" href="https://twitter.com/manankohlii" class="sm-button" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <br>
+                <p class="copyright">&copy Copyright
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> |❤️Manan Kohli</a>
+                </p>
+            </footer>
+            <a onclick="playaudio3()" href="#" class="to-top">
+                <i class="fa fa-arrow-up" style="font-size:36px"></i>
+            </a>
+
+            <!---javascript links-->
+            <script src="./js/scroll.js"></script>
+
         </div>
-    </div>
-    <footer>
-        <div class="sm-handle">
-            <a href="https://linkedin.com/in/manan-kohli" class="sm-button" target="_blank">
-
-                <i class="fab fa-linkedin">	</i>
-            </a>
-            <a href="https://github.com/manankohlii" class="sm-button" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://twitter.com/manankohlii" class="sm-button" target="_blank">
-                <i class="fab fa-twitter"></i>
-            </a>
-            </div>
-            <br>
-            <p class="copyright">&copy Copyright <script>document.write(new Date().getFullYear())</script> |❤️Manan Kohli</a></p>
-    </footer>
-    <a href="#" class="to-top">
-        <i class="fa fa-arrow-up" style="font-size:36px"></i>
-    </a>
-    
-    <!---javascript links-->
-    <script src="./js/scroll.js"></script>
-
-    </div>
-  
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-    <script src="js/vanilla-tilt.js"></script>
-    <script>
-        VanillaTilt.init(document.querySelectorAll(".mission_patch"), {
-		max: 25,
-		speed: 400
-	});
-    </script>
-</main>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        <script src="js/vanilla-tilt.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".mission_patch"), {
+                max: 25,
+                speed: 400
+            });
+        </script>
+        <audio id="audio1">
+        <source src="./sound-effects/static_ask.mp3" type="audio/ogg">
+      </audio>
+        <audio id="audio2">
+        <source src="./sound-effects/static_deploy.mp3" type="audio/ogg">
+      </audio>
+        <audio id="audio3">
+        <source src="./sound-effects/static_information.mp3" type="audio/ogg">
+      </audio>
+        <audio id="audio3">
+        <source src="./sound-effects/click.mp3" type="audio/ogg">
+      </audio>
+    </main>
 </body>
+
 </html>
