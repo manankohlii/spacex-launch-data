@@ -97,7 +97,7 @@ git push -u origin <your_branch_name>
 
 **13.** Add appropriate title and description to your pull request explaining your changes and efforts done. Always make sure you have pulled the latest code from the master branch before making a PR.
 
-**14.** Click on `Create Pull Request`.
+**14.** Click on `Create Pull Request` .
 ## 📌 Opensource Programs
 
 ### This project is a part of the following Open Source Program(s)

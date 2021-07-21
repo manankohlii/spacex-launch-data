@@ -5,8 +5,10 @@
 }
 
 body {
-  font-family: "verdana", sans-serif;
-  background: url("images/bg1.png") no-repeat center center/cover fixed;
+
+    font-family: 'verdana' , sans-serif;
+    background: url('space\ animation.gif') no-repeat center center/cover fixed;
+
 }
 ::-webkit-scrollbar
 {
@@ -49,6 +51,7 @@ body {
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.6)
   );
+
 }
 
 header {
@@ -617,6 +620,20 @@ footer {
     pointer-events: none;
     transition: all .4s;
 }
+
+
+.fab{
+    color: #fff;
+    font-size: 16px;
+
+}
+.copyright{
+    font-size: 10px;
+    word-spacing: 2px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
 .to-top:hover{
   color: goldenrod;
   background-color: lightgray;
